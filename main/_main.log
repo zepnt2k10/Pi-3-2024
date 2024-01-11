@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  9 JAN 2024 14:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  11 JAN 2024 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3055,7 +3055,7 @@ mapping=tex-text;" at 12.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
 d/EBGaramond-Bold.otf
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 33.
+(Font)              scaled to size 12.0pt on input line 34.
 Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
 m;mapping=tex-text;" at 12.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
@@ -3064,7 +3064,7 @@ Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 36.
+(Font)              scaled to size 7.0pt on input line 37.
 Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
 um;mapping=tex-text;" at 7.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
@@ -3101,7 +3101,7 @@ File: fhoccungpi2.pdf Graphic file (type pdf)
 [1
 
 ]
-Overfull \hbox (0.1492pt too wide) detected at line 87
+Overfull \hbox (0.60669pt too wide) detected at line 102
 []
  []
 
@@ -3128,20 +3128,6 @@ File: hoccungpi1.pdf Graphic file (type pdf)
 File: fhoccungpi1.pdf Graphic file (type pdf)
 <use fhoccungpi1.pdf>
 [2]
-Overfull \hbox (7.59567pt too wide) detected at line 148
-[]
- []
-
-
-Overfull \hbox (4.31543pt too wide) detected at line 167
-[]
- []
-
-
-Overfull \hbox (8.11162pt too wide) detected at line 178
-[]
- []
-
 File: hoccungpi2.pdf Graphic file (type pdf)
 <use hoccungpi2.pdf>
 File: fhoccungpi2.pdf Graphic file (type pdf)
@@ -3154,11 +3140,7 @@ File: hoccungpi2.pdf Graphic file (type pdf)
 <use hoccungpi2.pdf>
 File: fhoccungpi2.pdf Graphic file (type pdf)
 <use fhoccungpi2.pdf>
-[3]
-Overfull \hbox (2.02359pt too wide) detected at line 282
-[]
- []
-
+ [3]
 File: hoccungpi1.pdf Graphic file (type pdf)
 <use hoccungpi1.pdf>
 File: fhoccungpi1.pdf Graphic file (type pdf)
@@ -3171,28 +3153,8 @@ File: hoccungpi1.pdf Graphic file (type pdf)
 <use hoccungpi1.pdf>
 File: fhoccungpi1.pdf Graphic file (type pdf)
 <use fhoccungpi1.pdf>
-[4]
-Overfull \hbox (2.81569pt too wide) detected at line 312
-[]
- []
-
-
-Overfull \hbox (2.81569pt too wide) detected at line 318
-[]
- []
-
-
-Overfull \hbox (7.67659pt too wide) detected at line 327
-[]
- []
-
-
-Overfull \hbox (3.40527pt too wide) detected at line 340
-[]
- []
-
-
-Overfull \hbox (1.47952pt too wide) detected at line 375
+ [4]
+Overfull \hbox (7.67659pt too wide) detected at line 363
 []
  []
 
@@ -3209,7 +3171,7 @@ File: hoccungpi2.pdf Graphic file (type pdf)
 File: fhoccungpi2.pdf Graphic file (type pdf)
 <use fhoccungpi2.pdf>
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 413--415
+Underfull \hbox (badness 10000) in paragraph at lines 464--466
 \TU/EBGaramond(0)/m/n/12 Mặt khác $[]\OT1/ztmcm/m/n/12 3\OML/ztmcm/m/it/12 f\OT
 1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/m/n/12 ) + 9\OML/ztmcm/m/it/12 f
 \OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 ) \OMS/ztmcm/m/n/12 ^^
@@ -3254,7 +3216,7 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 Here is how much of TeX's memory you used:
  68613 strings out of 410939
  1558454 string characters out of 2823530
- 2640389 words of memory out of 3000000
+ 2639387 words of memory out of 3000000
  88135 multiletter control sequences out of 15000+600000
  504389 words of font info for 128 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

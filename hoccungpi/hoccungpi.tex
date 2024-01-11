@@ -5,7 +5,7 @@
 \blfootnote{\color{hoccungpi}\color{hoccungpi}$^1$Sinh viên Trường ĐH Sư phạm TP.HCM.}
 \begingroup
 \AddToShipoutPicture*{\put(0,616){\includegraphics[width=19.3cm]{../bannerhoccungpi}}}
-\AddToShipoutPicture*{\put(56,518){\includegraphics[scale=1]{../tieude.pdf}}}
+\AddToShipoutPicture*{\put(56,522){\includegraphics[scale=1]{../tieude.pdf}}}
 \centering
 \endgroup
 \vspace*{190pt}
@@ -15,14 +15,15 @@
 	\vskip 0.1cm
 	Những bài toán phương trình hàm trên tập hợp số thực dương đã không còn quá xa lạ đối với các bạn học sinh chuyên Toán và ngày càng xuất hiện nhiều hơn trong các đề thi Olympic dạo gần đây. Trong số đó, có thể kể đến bài toán nằm trong đề thi chọn đội tuyển Quảng Ninh tham dự kỳ thi học sinh giỏi cấp quốc gia môn Toán (VMO) năm học $2022-2023$ dưới đây: 
 	\vskip 0.1cm
-	\textbf{\color{hoccungpi}Bài toán:} [Quảng Ninh TST $2022 - 2023$]
+	\textbf{\color{hoccungpi}Bài toán:} [Quảng Ninh $2022 - 2023$]
 	\vskip 0.1cm
 	Tìm tất cả hàm số $f: \mathbb{R^+} \to \mathbb{R^+}$ thỏa mãn: 
 	\begin{align*}
-		&f(3f(x) + 3y) \\
-		= &f(3x + y) + 2y,\forall x,y \in \ \mathbb{R^+}. \tag{$1$}
+		f(3f(x) + 3y) = f(3x + y) + 2y,\tag{$1$}
 	\end{align*}
-	Bài viết này, bàn về $7$ lời giải cho bài toán trên. Qua đó nhằm mục đích giới thiệu cho bạn đọc những kỹ năng, kỹ thuật cơ bản để giải quyết những bài toán phương trình hàm trên tập hợp số thực dương nói riêng và những bài toán phương trình hàm nói chung. Trên tất thảy, tôi muốn nhắn nhủ đến bạn đọc rằng: việc giải được một bài toán đối với nhiều người đã là một chiến thắng, nhưng nếu chịu khó tìm tòi, phân tích kĩ bản chất, đào sâu hơn nữa bài toán đó để phát hiện ra những kết quả mới, những lời giải mới, hay xa hơn nữa là những bài toán mới thì chiến thắng ấy còn vẻ vang hơn gấp vạn lần.
+	với mọi $x,y$ thuộc $\mathbb{R^+}$.
+	\vskip 0.1cm
+	Bài viết này bàn về bảy lời giải cho bài toán trên qua đó giới thiệu cho bạn đọc những kỹ năng, kỹ thuật cơ bản để giải quyết những bài toán phương trình hàm trên tập hợp số thực dương nói riêng và những bài toán phương trình hàm nói chung.
 	\vskip 0.1cm
 	$\pmb{2.}$	\textbf{\color{hoccungpi}Lời giải bài toán}
 	\vskip 0.1cm
@@ -61,40 +62,54 @@
 	\begin{align*}
 		f(y) = f(y + nT),\forall y > 3b,n \in \mathbb{N^*}.
 	\end{align*}
-	Trong đẳng thức trên chọn $y = 3b + 1$  và sử dụng \textbf{\color{hoccungpi}nhận xét $\pmb1$} ta được: 
+	Trong đẳng thức trên chọn $y = 3b + 1$  và sử dụng \textbf{\color{hoccungpi}Nhận xét $\pmb1$} ta được: 
 	\begin{align*}
 		f(3b + 1) &= f(3b + 1 + nT) \\
 		&\ge 3b + 1 + nT,\forall n \in \mathbb{N^*}
 	\end{align*}
 	Đến đây cho  $n \to +\infty$ ta thu được điều vô lý. Do vậy $f$  là đơn ánh.
 	\vskip 0.1cm
-	\textbf{\color{hoccungpi}Bình luận.} Đối với những bài toán tìm hàm  $f: \mathbb{R^+} \to \mathbb{R^+}$, ta thường chú ý đến tính đơn điệu, đơn ánh, tuần hoàn, bị chặn, cộng tính, \ldots của hàm  $f$. Đặc biệt, kỹ thuật phản chứng, xây dựng hàm tuần hoàn nhằm chứng minh $f$  đơn ánh đã trở thành ý tưởng quen thuộc khi giải quyết những bài toán dạng này.
+	\textbf{\color{hoccungpi}Bình luận.} Đối với những bài toán tìm hàm  $f: \mathbb{R^+} \to \mathbb{R^+}$, ta thường chú ý đến tính đơn điệu, đơn ánh, tuần hoàn, bị chặn, cộng tính, \ldots\, của hàm  $f$. Đặc biệt, kỹ thuật phản chứng, xây dựng hàm tuần hoàn nhằm chứng minh $f$  đơn ánh đã trở thành ý tưởng quen thuộc khi giải quyết những bài toán dạng này.
 	\vskip 0.1cm 
-	Sau khi thu được hai nhận xét trên, tôi xin trình bày $7$ lời giải cho bài toán gốc như sau:
+	Sau khi thu được hai nhận xét trên, tôi xin trình bày bảy lời giải cho bài toán gốc như sau:
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb{1}$:}
 	\vskip 0.1cm
 	Trong ($1$) thay $x$  bởi $3f(x) + 3z$ thì được: 
 	\begin{align*}
 		&f(3f(3f(x) + 3z) + 3y) \\
-		&=f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0\\
-		\mathop  \Rightarrow \limits^{(1.1)} &f(3f(3x + z) + 6z + 3y) \\
-		&= f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0\\
-		\mathop  \Rightarrow \limits^{(1.1)} &f(3(3x + z) + 2z + y) + 4z + 2y \\
-		&= f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0\\
-		\Rightarrow &f(9x + 5z + y) + 4z \\
-		&= f(9f(x) + 9z + y),\forall x,y,z > 0. \quad \!\!(2)
+		&=f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0
+	\end{align*}
+	suy ra, theo ($1$)
+	\begin{align*}
+		&f(3f(3x + z) + 6z + 3y) \\
+		=&f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0
+	\end{align*}
+	suy ra, theo ($1$)
+	\begin{align*}
+	&f(3(3x + z) + 2z + y) + 4z + 2y \\
+	= &f(9f(x) + 9z + y) + 2y,\forall x,y,z > 0
+	\end{align*}
+	suy ra
+	\begin{align*}
+		&f(9x + 5z + y) + 4z \\
+		&= f(9f(x) + 9z + y),\forall x,y,z > 0. \tag{$2$}
 	\end{align*}
 	Đến đây thay $y$  và $z$  bởi $\dfrac{z}{2}$  ta được: 
 	\begin{align*}
-		&f(9x + 3z) + 2z \\
-		&= f(9f(x) + 5z),\forall x,z > 0\\
-		\Rightarrow &f(3(3x + \frac{{2z}}{3}) + z) + 2z \\
-		&= f(9f(x) + 5z),\forall x,z > 0\\
-		\mathop\Rightarrow \limits^{(1)} &f(3f(3x + \frac{{2z}}{3}) + 3z) \\
-		&= f(9f(x) + 5z),\forall x,z > 0.
+		f(9x + 3z) + 2z 
+		= f(9f(x) + 5z),\forall x,z > 0
 	\end{align*}
-	Mặt khác $f$  là đơn ánh nên: 
+	suy ra
+	\begin{align*}
+		f(3(3x + \frac{{2z}}{3}) + z) + 2z =f(9f(x) + 5z),
+	\end{align*}
+	với mọi $x,z > 0$.
+	Suy ra, theo ($1$)
+	\begin{align*}
+		f(3f(3x + \frac{{2z}}{3}) + 3z) = f(9f(x) + 5z),
+	\end{align*}	
+	với mọi $x,z > 0$. Mặt khác $f$  là đơn ánh nên: 
 	\begin{align*}
 		3f(3x + \frac{{2z}}{3}) + 3z = 9f(x) + 5z,\forall x,z > 0.
 	\end{align*}
@@ -117,23 +132,22 @@
 	\end{align*}
 	Thay công thức trên vào ($1$) ta được: 
 	\begin{align*}
-		&3x + 3y + 4C = 3x + 3y + C,\forall x,y > 0 \\
-		\Rightarrow &C = 0.
+		&3x + 3y + 4C = 3x + 3y + C,\forall x,y > 0.
 	\end{align*}
-	Vậy bài toán đã cho có duy nhất một nghiệm hàm là $f(x) = x, \forall x >0$.
+	Vậy $C = 0$. Vậy bài toán đã cho có duy nhất một nghiệm hàm là $f(x) = x, \forall x >0$.
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb2$:} (tiếp nối từ ($2$))
 	\vskip 0.1cm 
 	Trong ($2$) cho $z = x$ thì được: 
 	\begin{align*}
-		&f(14x + y) + 4x \\
-		= &f(9f(x) + 9x + y),\forall x,y > 0.
+	f(14x + y) + 4x = f(9f(x) + 9x + y),
 	\end{align*}
-	Đến đây thay $y$  bởi $y - 14x$  thì được: 
+	với mọi $x,y > 0$. Đến đây thay $y$  bởi $y - 14x$  thì được: 
 	\begin{align*}
-		&f(y) + 4x \\
-		= &f(y + 9f(x) - 5x),\forall x > 0,y > 14x.
+		f(y) + 4x = f(y + 9f(x) - 5x), 
 	\end{align*}
+	với mọi $x > 0,y > 14x$.
+	\vskip 0.1cm
 	Với mọi  $x > 0$, đặt  $g(x) = 9f(x) - 5x \ge 4x > 0.$ Lúc này đẳng thức trên trở thành: 
 	\begin{align*}
 		&f(y) + 4x \\
@@ -141,91 +155,105 @@
 	\end{align*}
 	Đến đây thay $x$  bởi $x + z$  thì được: 
 	\begin{align*}
-		&f(y + g(x + z)) \\
+		f(y + g(x + z))
 		= &f(y) + 4x + 4z\\
 		\mathop  = \limits^{(3)} &f(y + g(x)) + 4z\\
-		\mathop  = \limits^{(3)} &f(y \!+\! g(x) \!+\! g(z)),\forall x,z > 0,y > 14(x \!+\! z).
+		\mathop  = \limits^{(3)} &f(y \!+\! g(x) \!+\! g(z)),
 	\end{align*}
+	với mọi $ x,z > 0,y > 14(x + z)$.
 	Lại có $f$ là đơn ánh nên: 
 	\begin{align*}
-		&y + g(x + z) \\
-		= &y + g(x) + g(z),\forall x,z > 0,y > 14(x + z).
+		y + g(x + z) = y + g(x) + g(z),
 	\end{align*}
-	Dẫn đến: 
+	với mọi $x,z > 0,y > 14(x + z).$ Dẫn đến: 
 	\begin{align*}
 		g(x) + g(z) = g(x + z),\forall x,z > 0.
 	\end{align*}
 	Như vậy $g: \mathbb{R^+} \to \mathbb{R^+}$  và $g$ cộng tính trên $\mathbb{R^+}$  nên $g(x) = xg(1),\forall x > 0.$  Nói cách khác, 
 	\begin{align*}
-		&9f(x) - 5x = xg(1),\forall x > 0\\
-		\Rightarrow &f(x) = \alpha x,\forall x > 0. \text{($\alpha$ là hằng số)}
+		9f(x) - 5x = xg(1),\forall x > 0,
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(x) = \alpha x,\forall x > 0. \text{ ($\alpha$ là hằng số)}
 	\end{align*}
 	Thay công thức trên vào ($1$) ta được: 
 	\begin{align*}
-		&\alpha (3\alpha x + 3y) = \alpha (3x + y) + 2y,\forall x,y > 0\\
-		\Rightarrow &\alpha = 1.
+		\alpha (3\alpha x + 3y) = \alpha (3x + y) + 2y,\forall x,y > 0,
 	\end{align*}
+	suy ra $\alpha = 1.$
 	Vậy bài toán đã cho có duy nhất nghiệm hàm  $f(x)= x, \forall x > 0$.
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb3$:} (tiếp nối từ ($3$))
 	\vskip 0.1cm 
 	Trong ($1$) thay $y$ bởi $2y$ thì được: 
 	\begin{align*}
-		&f(3f(x) + 6y) \\
-		&= f(3x + 2y) + 4y,\forall x,y > 0\\
-		\mathop  \Rightarrow \limits^{(3)} &f(3f(x) + 6y) \\
-		&= f(3x \!+\! 2y \!+\! g(y)),\forall y \!>\! 0,3x \!+\! 2y \!>\! 14y.
+		f(3f(x) \!+\! 6y) \!=\! f(3x \!+\! 2y) \!+\! 4y,\forall x,y > 0
 	\end{align*}
+	suy ra, theo ($3$)
+	\begin{align*}
+		f(3f(x) + 6y) = f(3x + 2y + g(y)),
+	\end{align*}
+	với mọi $y > 0,3x + 2y > 14y.$ 
+	\vskip 0.1cm
 	Lại có  $f$ là đơn ánh nên: 
 	\begin{align*}
-		3f(x) \!+\! 6y \!=\! 3x \!+\! 2y \!+\! g(y),\forall y > 0,x > 4y.
+		3f(x) + 6y = 3x + 2y + g(y),
 	\end{align*}
+	với mọi $y > 0,x > 4y.$
 	Nói cách khác, 
 	\begin{align*}
-		f(x) - x = 3(f(y) - y),\forall y > 0,x > 4y.
+		f(x) - x = 3(f(y) - y),
 	\end{align*}
+	với mọi $y > 0,x > 4y.$
+	\vskip 0.1cm
 	Với mọi $x > 0$, đặt $h(x) = f(x) - x$. Từ đẳng thức trên ta có ngay: 
 	\begin{align*}
-		h(x) = 3h(y),\forall y > 0,x > 4y.
+		h(x) = 3h(y),
 	\end{align*}
+	với mọi $y > 0,x > 4y.$
+	\vskip 0.1cm
 	Giả sử ta cố định $y > 0$  thì lập tức $h$ là hàm hằng trên khoảng $(4y, + \infty)$. Bằng cách cho $y \to 0^+$  ta sẽ thu được $h$ là hàm hằng trên toàn bộ khoảng $(0 , + \infty)$. Dựa trên phân tích này, ta có thể giải tiếp bài toán như sau:
 	\vskip 0.1cm
 	Lấy $x > z > 0$  tùy ý. Ta sẽ chứng minh $h(x) = h(z)$.
 	\vskip 0.1cm 
 	Thật vậy, chọn $y = \dfrac{z}{5}$  thì $x > 4y$  và  $z > 4y$. Khi đó $h(x) = 3h(y) = h(z)$.  Do đó  $h$ là hàm hằng trên $\mathbb{R^+}$. Nói cách khác, 
 	\begin{align*}
-		f(x) - x = C,\forall x > 0. \text{$C$ là hằng số}
+		f(x) - x = C,
 	\end{align*}
+	với mọi $x > 0$. $C$ là hằng số.
+	\vskip 0.1cm
 	Thay công thức trên vào ($1$) ta tìm được: $C = 0.$
-	\vskip 0.1cm 
-	Vậy bài toán đã cho có duy nhất nghiệm hàm $f(x) = x, \forall x > 0$.  
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb4$:} (tiếp nối từ ($3$))
 	\vskip 0.1cm     
-	Điểm mấu chốt của \textbf{\color{hoccungpi}cách $2$} và \textbf{\color{hoccungpi}cách $3$} là dựa vào phương trình ($3$) và tìm cách vận dụng tính đơn ánh của hàm $f$. Tuy nhiên trong một số trường hợp, nếu ta không chỉ ra được hàm $f$  đơn ánh thì liệu có cách nào giải quyết được phương trình ($3$) hay không? Bổ đề sau đây sẽ giúp chúng ta trả lời câu hỏi đó.  
+	Điểm mấu chốt của \textbf{\color{hoccungpi}Cách $\pmb2$} và \textbf{\color{hoccungpi}Cách $\pmb3$} là dựa vào phương trình ($3$) và tìm cách vận dụng tính đơn ánh của hàm $f$. Tuy nhiên trong một số trường hợp, nếu ta không chỉ ra được hàm $f$  đơn ánh thì liệu có cách nào giải quyết được phương trình ($3$) hay không? Bổ đề sau đây sẽ giúp chúng ta trả lời câu hỏi đó.  
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Bổ đề.}  Cho các hàm  $f,g,h,q: \mathbb{R^+} \to \mathbb{R^+}$ thỏa mãn: 
 	\begin{align*}
-		&f(y + g(x)) = f(y) + h(x), \tag{$4$}\\
-		&\forall x > 0,y > q(x). 
+		f(y + g(x)) = f(y) + h(x), \tag{$4$}
 	\end{align*}
+	với mọi $x > 0,y > q(x)$.
 	Khi đó $\dfrac{g(x)}{h(x)}$  là hàm hằng.
 	\vskip 0.1cm
 	\textit{Chứng minh.}  Trong ($4$) thay $y$ bởi $y - g(x)$  thì được: 
 	\begin{align*}
-		&f(y - g(x)) = f(y) - h(x),\\
-		&\forall x > 0,y > q(x) + g(x).
+		f(y - g(x)) = f(y) - h(x),
 	\end{align*}
+	với mọi $x > 0,y > q(x) + g(x).$
+	\vskip 0.1cm
 	Bằng quy nạp ta thu được: 
 	\begin{align*}
-		&f(y - ng(x)) = f(y) - nh(x), \tag{$5$}\\
-		&\forall n \in \mathbb{N^*},x > 0,y > q(x) + ng(x). 
+		f(y - ng(x)) = f(y) - nh(x), \tag{$5$}
 	\end{align*}
+	với mọi $n \in \mathbb{N^*},x > 0,y > q(x) + ng(x)$. 
+	\vskip 0.1cm
 	Từ ($4$) bằng quy nạp ta cũng có: 
 	\begin{align*}
-		&f(y + mg(x)) = f(y) + mh(x), \tag{$6$}\\
-		&\forall m \in \mathbb{N^*},x > 0,y > q(x). 
+		f(y + mg(x)) = f(y) + mh(x), \tag{$6$}
 	\end{align*}
+	với mọi $m \in \mathbb{N^*},x > 0,y > q(x)$.
+	\vskip 0.1cm 
 	Lấy $x, y > 0$  tùy ý, ta hoàn toàn chọn được $m,n \in \mathbb{N^*}$  sao cho $mg(x) > ng(y)$. Đặt  $z = q(x) + q(y)$, khi đó với mọi $k \in \mathbb{N^*}$  thì: 
 	\begin{align*}
 		&f(z + kmg(x) - kng(y))\\
@@ -249,50 +277,56 @@
 	\end{align*}
 	Điều này mâu thuẫn với kết luận ở trên. Vậy  $\frac{{g(x)}}{{h(x)}}$  phải là hàm hằng.
 	\vskip 0.1cm
-	\textbf{\color{hoccungpi}Trở lại bài toán:} Áp dụng bổ đề trên cho phương trình ($3$) ta được: 
-	\begin{align*}
-		&\frac{{g(x)}}{{4x}} = C,\forall x > 0 (C \text{ là hằng số})\\
-		\Rightarrow &\frac{{9f(x) - 5x}}{{4x}} = C,\forall x > 0\\
-		\Rightarrow &f(x) = \alpha x,\forall x > 0 (\alpha \text{ là hằng số}).
-	\end{align*}
-	Thay công thức trên vào ($1$) ta tìm được \linebreak $\alpha = 1$.
-	\vskip 0.1cm  
-	Vậy bài toán đã cho có duy nhất nghiệm hàm  $f(x) = x,\forall x > 0.$ 
+	\textbf{\color{hoccungpi}Trở lại bài toán:} Áp dụng bổ đề trên cho phương trình ($3$) ta có ngay điều cần chứng minh.
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb5$:} 
 	\vskip 0.1cm    
 	Giả sử tồn tại $x_0 > 0$  để mà $f({x_0}) > {x_0}.$  Trong ($1$) cho $x = {x_0}$  ta được: 
 	\begin{align*}
-		&f(3f({x_0}) + 3y) \\
-		= &f(3{x_0} + y) + 2y,\forall y > 0. \tag{$7$}
+		f(3f({x_0}) + 3y)
+		= f(3{x_0} + y) + 2y, \tag{$7$}
 	\end{align*}
+	với mọi $=y > 0.$
+	\vskip 0.1cm
 	Đặt $A = 3f\left(x_0\right) - 3{x_0} > 0$.  Bằng quy nạp, ta sẽ chứng minh bất đẳng thức sau: 
 	\begin{align*}
 		f(y) \ge y + nA,\forall y > 3{x_0},\forall n \in \mathbb{N}
 	\end{align*}
-	Theo \textbf{\color{hoccungpi}nhận xét $1$} thì bất đẳng thức ($8$) đúng với  $n = 0$. Giả sử ta đã có $f(y) \ge y + kA$ với mọi $y > 3x_0$ và  $k$ là một số tự nhiên nào đó. Nhiệm vụ của ta bây giờ là chứng minh: 
+	Theo \textbf{\color{hoccungpi}Nhận xét $1$} thì bất đẳng thức ($8$) đúng với  $n = 0$. Giả sử ta đã có $f(y) \ge y + kA$ với mọi $y > 3x_0$ và  $k$ là một số tự nhiên nào đó. Nhiệm vụ của ta bây giờ là chứng minh: 
 	\begin{align*}
 		f(y) \ge y + (k + 1)A,\forall y > 3{x_0}.
 	\end{align*}
 	Rõ ràng $3f({x_0}) + 3y > 3{x_0}$  với mọi $y > 0$ nên theo giả thiết quy nạp thì:
 	\begin{align*}
-		&f(3f({x_0}) \!+\! 3y) \!\ge\! 3f({x_0}) \!+\! 3y \!+\! kA,\forall\! y \!>\! 0\\
-		\mathop  \Rightarrow \limits^{(7)} &f(3{x_0} \!+\! y) \!+\! 2y \!\ge\! 3f({x_0}) \!+\! 3y \!+\! kA,\forall \!y \!>\! 0\\
-		\Rightarrow &f(y + 3{x_0}) \ge y + 3f({x_0}) + kA,\forall y > 0.
+		f(3f({x_0}) \!+\! 3y) \!\ge\! 3f({x_0}) \!+\! 3y \!+\! kA,\forall\! y \!>\! 0,
+	\end{align*}
+	suy ra, theo ($7$)
+	\begin{align*}
+		f(3{x_0} \!+\! y) \!+\! 2y \!\ge\! 3f({x_0}) \!+\! 3y \!+\! kA,\forall \!y \!>\! 0,
+	\end{align*}
+	suy ra
+	\begin{align*}
+			f(y + 3{x_0}) \ge y + 3f({x_0}) + kA,\forall y > 0.
 	\end{align*}
 	Đến đây thay  $y$ bởi $y - 3x_0$  ta được:
 	\begin{align*}
-		&f(y) \ge y + A + kA,\forall y > 3{x_0}\\
-		\Rightarrow & f(y) \ge y + (k + 1)A,\forall y > 3{x_0}.
+		f(y) \ge y + A + kA,\forall y > 3{x_0},
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(y) \ge y + (k + 1)A,\forall y > 3{x_0}.
 	\end{align*}
 	Do đó bất đẳng thức ($8$) được chứng minh xong. Trong ($8$) chọn $y = 3x_0 + 1$  và cho  $n \to + \infty$ ta có ngay điều vô lý.
 	\vskip 0.1cm
-	Nói cách khác, không tồn tại $x_0 > 0$ sao cho $f(x_0) > x_0$.  Kết hợp với \textbf{\color{hoccungpi}nhận xét $\pmb1$} ta có ngay $f(x) = x$  với mọi $x > 0$. Thử lại thấy đây là nghiệm hàm của bài toán.
+	Nói cách khác, không tồn tại $x_0 > 0$ sao cho $f(x_0) > x_0$.  Kết hợp với \textbf{\color{hoccungpi}Nhận xét $\pmb1$} ta có ngay $f(x) = x$  với mọi $x > 0$. Thử lại thấy đây là nghiệm hàm của bài toán.
 	\vskip 0.1cm
-	\textbf{\color{hoccungpi}Bình luận.} Bất đẳng thức ($8$) được tìm ra như sau: Sử dụng \textbf{\color{hoccungpi}nhận xét $\pmb1$} trong ($7$) ta suy ra: 
+	\textbf{\color{hoccungpi}Bình luận.} Bất đẳng thức ($8$) được tìm ra như sau: Sử dụng \textbf{\color{hoccungpi}Nhận xét $\pmb1$} trong ($7$) ta suy ra: 
 	\begin{align*}
-		&f(3{x_0} + y) + 2y \ge 3f({x_0}) + 3y,\forall y > 0\\
-		\Rightarrow &f(3{x_0} + y) \ge 3f({x_0}) + y,\forall y > 0.
+		f(3{x_0} + y) + 2y \ge 3f({x_0}) + 3y,\forall y > 0,
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(3{x_0} + y) \ge 3f({x_0}) + y,\forall y > 0.
 	\end{align*}
 	Đến đây thay $y$ bởi $y - 3x_0$, ta được: 
 	\begin{align*}
@@ -304,21 +338,23 @@
 	\vskip 0.1cm     
 	Trước hết ta chứng minh  $f$ đồng biến (tăng ngặt) trên $\mathbb{R^+}$.
 	\vskip 0.1cm 
-	Sử dụng \textbf{\color{hoccungpi}nhận xét $\pmb1$} ở ($1$) ta được:
+	Sử dụng \textbf{\color{hoccungpi}Nhận xét $\pmb1$} ở ($1$) ta được:
 	\begin{align*}
-		&f(3x + y) + 2y \ge 3f(x) + 3y,\forall x,y > 0\\
-		\Rightarrow &f(3y + x) \ge 2(f(x) - x) + f(x) + 3f(y),\\
-		&\forall x,y > 0.
+		f(3x + y) + 2y \ge 3f(x) + 3y,\forall x,y > 0
 	\end{align*}
+	suy ra
+	\begin{align*}
+	f(3y + x) \ge 2(f(x) - x) + f(x) + 3f(y), 
+	\end{align*}
+	với mọi $x,y > 0$.
 	Đến đây thay $y$ bởi $3f(y)$  rồi sử dụng ($1$) ta được: 
 	\begin{align*}
-		&f(3y \!+\! x) \!+\! 2x \ge 3f(x) \!+\! 3f(y),\forall x,y > 0\\
-		\Rightarrow &f(3y + x) \ge 2(f(x) - x) + f(x) + 3f(y),\\
-		&\forall x,y > 0.
+		f(3y \!+\! x) \!+\! 2x \ge 3f(x) \!+\! 3f(y),
 	\end{align*}
-	Lại có $f(x) \ge x$  với mọi $x > 0$  nên: 
+	suy ra
 	\begin{align*}
-		f(3y + x) \ge f(x) + 3f(y),\forall x,y > 0. \tag{$9$}
+		f(3y + x) &\ge 2(f(x) - x) + f(x) + 3f(y),\\
+		&\ge f(x) + 3f(y),\forall x,y > 0. \tag{$9$}
 	\end{align*}
 	Do đó với mọi $a,b > 0$  mà $a > b$  thì: 
 	\begin{align*}
@@ -327,36 +363,38 @@
 	\end{align*}
 	Như vậy $f$  đồng biến trên $\mathbb{R^+}$.
 	\vskip 0.1cm 
-	Trong ($9$)  thay $x$  bởi $3f(x)$  rồi sử dụng ($1$) thì được: 
+	Trong ($9$)  thay $x$  bởi $3f(x)$  rồi sử dụng ($1$) và tính đồng biến của $f$ thì được: 
 	\begin{align*}
-		&f(3x + y) + 2y \\
-		\ge\, &f(3f(x)) + 3f(y),\forall x,y > 0. \tag{$10$}
+		f(3x \!+\! y) \!+\! 2y 
+		&\!\ge\! f(3f(x)) \!+\! 3f(y),\tag{$10$}\\
+		&\!\ge\! f(3x) \!+\! 3f(y),\forall x,y > 0
 	\end{align*}
-	Chú ý rằng  $3f(x) \ge 3x$ với mọi $x > 0$  và $f$ đồng biến trên $\mathbb{R^+}$  nên  $f(3f(x)) \ge f(3x),\forall x > 0.$ Vì thế từ ($10$) ta có ngay: 
+	suy ra
 	\begin{align*}
-		f(3x + y) + 2y &\ge f(3x) + 3f(y),\forall x,y > 0\\
-		\Rightarrow f(3x + y) &\ge f(3x) \!+\! 2(f(y) \!-\! y) \!+\! f(y)\\
+		f(3x + y) &\ge f(3x) \!+\! 2(f(y) \!-\! y) \!+\! f(y)\\
 		&\ge f(3x) + f(y),\forall x,y > 0.
 	\end{align*}
 	Nói tóm lại, 
 	\begin{align*}
 		f(x + y) \ge f(x) + f(y),\forall x,y > 0.
 	\end{align*}
-	Sử dụng đánh giá trên, ta có: 
+	Sử dụng đánh giá trên, ta có (với mọi $x,y >0$): 
 	\begin{align*}
-		&f(3f(x) + 3y) = f(3f(x) + y + 2y)\\
+		f(3f(x) + 3y) &= f(3f(x) + y + 2y)\\
 		&\ge f(3f(x) + y) + f(2y)\\
-		&\ge f(3f(x) + y) + 2y,\forall x,y > 0\\
-		\mathop  \Rightarrow \limits^{(1)} &f(3x + y) + 2y \ge f(3f(x) + y) + 2y,\\
-		&\forall x,y > 0\\
-		\Rightarrow &f(3x + y) \ge f(3f(x) + y),\forall x,y > 0.
+		&\ge f(3f(x) + y) + 2y,
+	\end{align*}
+	suy ra, theo ($1$)
+	\begin{align*}
+		f(3x + y) + 2y &\ge f(3f(x) + y) + 2y,\\
+		f(3x + y) &\ge f(3f(x) + y),
 	\end{align*}
 	Mặt khác $f$  đồng biến trên $\mathbb{R^+}$  nên từ bất đẳng thức trên ta có ngay: 
 	\begin{align*}
-		&3x + y \ge 3f(x) + y,\forall x,y > 0\\
-		\Rightarrow &x \ge f(x),\forall x > 0.
+		3x + y &\ge 3f(x) + y,\forall x,y > 0\\
+		x &\ge f(x),\forall x > 0.
 	\end{align*}
-	Kết hợp với \textbf{\color{hoccungpi}nhận xét} $\pmb1$ ta thu được $f(x) = x$ với mọi $x > 0$.   Thử lại thấy đây là nghiệm hàm của bài toán.
+	Kết hợp với \textbf{\color{hoccungpi}Nhận xét} $\pmb1$ ta thu được $f(x) = x$.
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Cách $\pmb7$:}
 	\vskip 0.1cm  
@@ -364,14 +402,21 @@
 	\vskip 0.1cm
 	Giả sử tồn tại hai số dương $a> b$  sao cho $f(a) \le f(b).$  Đặt  $\varepsilon  = f(b) - f(a) \ge 0.$
 	\vskip 0.1cm
-	Trong ($1$) cho  $x = b$ thì được: 
+	Trong ($1$) cho  $x = b$ thì được (với mọi $y>0$): 
 	\begin{align*}
-		&f(3f(b) + 3y) = f(3b + y) + 2y,\forall y > 0\\
-		\Rightarrow &f(3f(a) + 3(y + \varepsilon )) = f(3b + y) + 2y,\\
-		&\forall y > 0\\
-		\mathop  \Rightarrow \limits^{(1)} &f(3a \!+\! y \!+\! \varepsilon ) \!+\! 2(y \!+\! \varepsilon ) \!=\! f(3b \!+\! y) \!+\! 2y,\\
-		&\forall y > 0\\
-		\Rightarrow &f(y + 3b) = f(y + 3a + \varepsilon ) + 2\varepsilon ,\forall y > 0.
+		f(3f(b) + 3y) = f(3b + y) + 2y,
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(3f(a) + 3(y + \varepsilon )) = f(3b + y) + 2y,
+	\end{align*}
+	suy ra, theo ($1$)
+	\begin{align*}
+		f(3a \!+\! y \!+\! \varepsilon ) \!+\! 2(y \!+\! \varepsilon ) \!=\! f(3b \!+\! y) \!+\! 2y,
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(y + 3b) = f(y + 3a + \varepsilon ) + 2\varepsilon,
 	\end{align*}
 	Đến đây thay $y$  bởi $y - 3b$  và đặt $T = 3a - 3b + \varepsilon$  thì được: 
 	\begin{align*}
@@ -381,7 +426,7 @@
 	\begin{align*}
 		f(y) \ge f(y + nT),\forall y > 3b,n \in \mathbb{N^*}.
 	\end{align*}
-	Áp dụng \textbf{\color{hoccungpi}nhận xét} $\pmb1$ vào bất đẳng thức trên ta có ngay:
+	Áp dụng \textbf{\color{hoccungpi}Nhận xét} $\pmb1$ vào bất đẳng thức trên ta có ngay:
 	\begin{align*}
 		f(y) \ge y + nT,\forall y > 3b,n \in \mathbb{N^*}.
 	\end{align*}
@@ -389,13 +434,19 @@
 	\vskip 0.1cm
 	Sử dụng \textbf{\color{hoccungpi}nhận xét} $\pmb1$ trong ($1$) ta được: 
 	\begin{align*}
-		&f(3x + y) + 2y \ge 3f(x) + 3y,\forall x,y > 0\\
-		\Rightarrow &f(3x + y) \ge 3f(x) + y,\forall x,y > 0. \tag{$11$}
+		&f(3x + y) + 2y \ge 3f(x) + 3y,\forall x,y > 0
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(3x + y) \ge 3f(x) + y,\forall x,y > 0. \tag{$11$}
 	\end{align*}
 	Ta có $3f(x) + 3y \ge 3x + 3y,\forall x,y > 0$  và $f$  đồng biến trên $\mathbb{R^+}$  nên:
 	\begin{align*}
-		&f(3f(x) + 3y) \ge f(3x + 3y),\forall x,y > 0\\
-		\mathop  \Rightarrow \limits^{(1)} &f(3x + y) + 2y \ge f(3x + 3y),\forall x,y > 0.
+		f(3f(x) + 3y) \ge f(3x + 3y),\forall x,y > 0
+	\end{align*}
+	suy ra, theo ($1$)
+	\begin{align*}
+		f(3x + y) + 2y \ge f(3x + 3y),\forall x,y > 0.
 	\end{align*}
 	Đến đây thay $x$ bởi $\dfrac{x}{3}$  thì được: 
 	\begin{align*}
@@ -418,9 +469,11 @@
 	\end{align*}
 	Sử dụng đánh giá này ở ($13$)  ta được:
 	\begin{align*}
-		&f(3y + x) + 6f(y) + 2x \ge 3f(x + 3y),\\
-		&\forall x,y > 0\\
-		\Rightarrow &x + 3f(y) \ge f(3y + x),\forall x,y > 0.
+		f(3y + x) + 6f(y) + 2x \ge 3f(x + 3y),
+	\end{align*}
+	với mọi $x, y > 0$. Suy ra
+	\begin{align*}
+		x + 3f(y) \ge f(3y + x),\forall x,y > 0.
 	\end{align*}
 	Mặt khác theo ($11$) ta lại có $f(3y + x) \ge x + 3f(y),\forall x,y > 0.$  Do đó: 
 	\begin{align*}
@@ -432,20 +485,22 @@
 	\end{align*}
 	Trong đẳng thức trên hoán đổi vị trí của $x$  và $y$ cho nhau ta được: 
 	\begin{align*}
-		&3x + 3f(y) = 3y + 3f(x),\forall x,y > 0\\
-		\Rightarrow &f(x) - x = f(y) - y,\forall x,y > 0.
+		3x + 3f(y) = 3y + 3f(x),\forall x,y > 0,
+	\end{align*}
+	suy ra
+	\begin{align*}
+		f(x) - x = f(y) - y,\forall x,y > 0.
 	\end{align*}
 	Nói cách khác, 
 	\begin{align*}
-		f(x) = x + C,\forall x > 0. (C \text{ là hằng số})
+		f(x) = x + C,\forall x > 0. 
 	\end{align*}
 	Thay công thức trên vào ($1$) ta tìm được: $C = 0$.
-	\vskip 0.05cm  
-	Vậy bài toán đã cho có duy nhất nghiệm hàm  $f(x) = x,\forall x > 0.$
-	\vskip 0.1cm
+	\vskip 0.1cm  
+	\columnbreak
 	$\pmb{3.}$	\textbf{\color{hoccungpi}Lời kết}
 	\vskip 0.1cm
-	Vậy là chúng ta đã cùng nhau đi qua $7$ lời giải cho bài toán phương trình hàm trên. Trong số các lời giải này, có $3$ cách sử dụng \textbf{\color{hoccungpi}nhận xét} $\pmb2$ và cũng có $3$ cách lấy \textbf{\color{hoccungpi}nhận xét} $\pmb1$ làm ý tưởng chủ đạo, xen vào giữa là lời giải sử dụng một bổ đề rất mạnh thường dùng để giải quyết những bài toán phương trình hàm trên tập hợp số thực dương. Sẽ là tuyệt vời hơn nữa nếu số lượng lời giải cho bài toán này không chỉ dừng lại ở con số $7$.  Nói đến đây, tôi chợt nhớ đến lời khuyên từ một người thầy của tôi: ``Làm toán không nhất thiết phải chạy theo số lượng bài tập, mà đôi khi chỉ cần hiểu sâu sắc một bài và dành thời gian đào sâu bản chất của bài toán đó." Hy vọng rằng với những gì tôi chia sẻ trên đây sẽ góp phần giúp bạn đọc tìm ra phương pháp học tập tốt nhất cho bản thân, đồng thời luôn nuôi giữ được niềm say mê Toán học của mình. 
+	Vậy là chúng ta đã cùng nhau đi qua bảy lời giải cho bài toán phương trình hàm trên. Trong số các lời giải này, có $3$ cách sử dụng \textbf{\color{hoccungpi}Nhận xét} $\pmb2$ và cũng có $3$ cách lấy \textbf{\color{hoccungpi}Nhận xét} $\pmb1$ làm ý tưởng chủ đạo, xen vào giữa là lời giải sử dụng một bổ đề rất mạnh thường dùng để giải quyết những bài toán phương trình hàm trên tập hợp số thực dương. Sẽ là tuyệt vời hơn nữa nếu số lượng lời giải cho bài toán này không chỉ dừng lại ở con số $7$.  Nói đến đây, tôi chợt nhớ đến lời khuyên từ một người thầy của tôi: ``Làm toán không nhất thiết phải chạy theo số lượng bài tập, mà đôi khi chỉ cần hiểu sâu sắc một bài và dành thời gian đào sâu bản chất của bài toán đó." Hy vọng rằng với những gì tôi chia sẻ trên đây sẽ góp phần giúp bạn đọc tìm ra phương pháp học tập tốt nhất cho bản thân, đồng thời luôn nuôi giữ được niềm say mê Toán học của mình. 
 	Mọi góp ý cho bài viết này xin vui lòng gửi về email quangchv$1234$@gmail.com.
 	\vskip 0.1cm
 	\textbf{\color{hoccungpi}Tài liệu tham khảo}
