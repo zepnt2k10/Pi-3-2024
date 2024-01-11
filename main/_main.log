@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  11 JAN 2024 15:07
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  11 JAN 2024 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2717,64 +2717,64 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (_main.aux)
 \openout1 = `_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
-4.
+5.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 84
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 85.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 85
 .
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LSBC5/skaknew/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LSBC5/skaknew/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for LSBC5+skaknew on input 
-line 84.
+line 85.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/chessfss\lsbc5skaknew.fd
 File: lsbc5skaknew.fd 2006/06/14 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for LSF+skaknew on input li
-ne 84.
+ne 85.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/chessfss\lsfskaknew.fd
 File: lsfskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for LSI+skaknew on input li
-ne 84.
+ne 85.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/chessfss\lsiskaknew.fd
 File: lsiskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    ... okay on input line 85.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2820,7 +2820,7 @@ Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
 \c@lstlisting=\count591
-Package hyperref Info: Link coloring ON on input line 84.
+Package hyperref Info: Link coloring ON on input line 85.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -2834,20 +2834,20 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count592
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
  (_main.out) (_main.out)
 \@outlinefile=\write7
 \openout7 = `_main.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 84.
-Package microtype Info: Applying patch `item' on input line 84.
-Package microtype Info: Applying patch `toc' on input line 84.
-Package microtype Info: Applying patch `eqnum' on input line 84.
+LaTeX Info: Redefining \microtypecontext on input line 85.
+Package microtype Info: Applying patch `item' on input line 85.
+Package microtype Info: Applying patch `toc' on input line 85.
+Package microtype Info: Applying patch `eqnum' on input line 85.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 84.
+Package microtype Warning: Unable to apply patch `footnote' on input line 85.
 
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2865,7 +2865,7 @@ Package biblatex Info: ... file 'nil.lbx' not found.
 
 
 Package biblatex Warning: Language 'nil' not supported.
-(biblatex)                Using dummy definitions on input line 84.
+(biblatex)                Using dummy definitions on input line 85.
 
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -2876,8 +2876,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '_main.bbl' not found.
 No file _main.bbl.
-Package biblatex Info: Reference section=0 on input line 84.
-Package biblatex Info: Reference segment=0 on input line 84.
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen473
@@ -2888,9 +2888,9 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 84.
+ on input line 85.
 
-(../hoccungpi/hoccungpi.tex
+(../vuicungpi/vuicungpi.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
 
@@ -3048,29 +3048,10 @@ d/EBGaramond-Italic.otf
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 14.
-Requested font "[EBGaramond-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;
-mapping=tex-text;" at 12.0pt
- -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
-d/EBGaramond-Bold.otf
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 34.
-Requested font "[EBGaramond-Italic.otf]/OT:script=latn;language=dflt;+pnum;+onu
-m;mapping=tex-text;" at 12.0pt
- -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
-d/EBGaramond-Italic.otf
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 37.
-Requested font "[EBGaramond-Regular.otf]/OT:script=latn;language=dflt;+pnum;+on
-um;mapping=tex-text;" at 7.0pt
- -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
-d/EBGaramond-Regular.otf
+File: ../vuicungpi/pic//Chiara.jpg Graphic file (type bmp)
+<../vuicungpi/pic//Chiara.jpg>
 
-Overfull \vbox (11.62634pt too high) has occurred while \output is active []
+Overfull \vbox (5.92152pt too high) has occurred while \output is active []
 
 
 
@@ -3088,122 +3069,100 @@ Package microtype Info: Loading generic protrusion settings for font family
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmsans
 8-regular.otf
-File: ../hoccungpi/pic//../bannerhoccungpi.jpg Graphic file (type bmp)
-<../hoccungpi/pic//../bannerhoccungpi.jpg>
-File: ../hoccungpi/pic//../tieude.pdf Graphic file (type pdf)
-<use ../hoccungpi/pic//../tieude.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
+File: ../vuicungpi/pic//../tieude.pdf Graphic file (type pdf)
+<use ../vuicungpi/pic//../tieude.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
 [1
 
 ]
-Overfull \hbox (0.60669pt too wide) detected at line 102
-[]
- []
+File: ../vuicungpi/pic//Leda.jpg Graphic file (type bmp)
+<../vuicungpi/pic//Leda.jpg>
 
-Requested font "zptmcm7t" at 5.0pt
-Requested font "zptmcm7m" at 5.0pt
-Requested font "zptmcm7y" at 5.0pt
-Requested font "zptmcm7v" at 5.0pt
-Requested font "ptmb7t" at 5.0pt
-Requested font "ptmri7t" at 5.0pt
-Requested font "msam10" at 5.0pt
-Requested font "msbm10" at 5.0pt
-Requested font "yhcmex10" at 5.0pt
-Requested font "rsfs5" at 5.0pt
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
+Overfull \vbox (6.43246pt too high) has occurred while \output is active []
+
+File: ../vuicungpi/pic//../tieude2.pdf Graphic file (type pdf)
+<use ../vuicungpi/pic//../tieude2.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
+
 [2]
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
- [3]
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
+File: ../vuicungpi/pic//Daniela.jpg Graphic file (type bmp)
+<../vuicungpi/pic//Daniela.jpg>
+
+Overfull \vbox (6.13716pt too high) has occurred while \output is active []
+
+File: ../vuicungpi/pic//../tieude3.pdf Graphic file (type pdf)
+<use ../vuicungpi/pic//../tieude3.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+
+[3]
+File: ../vuicungpi/pic//Yoana.jpg Graphic file (type bmp)
+<../vuicungpi/pic//Yoana.jpg>
+File: ../vuicungpi/pic//../tieude4.pdf Graphic file (type pdf)
+<use ../vuicungpi/pic//../tieude4.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
+File: vuicungpi1.pdf Graphic file (type pdf)
+<use vuicungpi1.pdf>
+File: fvuicungpi1.pdf Graphic file (type pdf)
+<use fvuicungpi1.pdf>
  [4]
-Overfull \hbox (7.67659pt too wide) detected at line 363
-[]
- []
-
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 464--466
-\TU/EBGaramond(0)/m/n/12 Mặt khác $[]\OT1/ztmcm/m/n/12 3\OML/ztmcm/m/it/12 f\OT
-1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/m/n/12 ) + 9\OML/ztmcm/m/it/12 f
-\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 y\OT1/ztmcm/m/n/12 ) \OMS/ztmcm/m/n/12 ^^
-U \OT1/ztmcm/m/n/12 3(\OML/ztmcm/m/it/12 x \OT1/ztmcm/m/n/12 +
- []
-
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-File: hoccungpi1.pdf Graphic file (type pdf)
-<use hoccungpi1.pdf>
-File: fhoccungpi1.pdf Graphic file (type pdf)
-<use fhoccungpi1.pdf>
-[6])
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
-File: hoccungpi2.pdf Graphic file (type pdf)
-<use hoccungpi2.pdf>
-File: fhoccungpi2.pdf Graphic file (type pdf)
-<use fhoccungpi2.pdf>
- [7] (_main.aux)
+File: ../vuicungpi/pic//sofia.jpg Graphic file (type bmp)
+<../vuicungpi/pic//sofia.jpg>
+)
+File: ../vuicungpi/pic//../tieude5.pdf Graphic file (type pdf)
+<use ../vuicungpi/pic//../tieude5.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+File: vuicungpi2.pdf Graphic file (type pdf)
+<use vuicungpi2.pdf>
+File: fvuicungpi2.pdf Graphic file (type pdf)
+<use fvuicungpi2.pdf>
+ [5] (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3214,12 +3173,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68613 strings out of 410939
- 1558454 string characters out of 2823530
- 2639387 words of memory out of 3000000
- 88135 multiletter control sequences out of 15000+600000
- 504389 words of font info for 128 fonts, out of 8000000 for 9000
+ 68715 strings out of 410939
+ 1560648 string characters out of 2823530
+ 2616822 words of memory out of 3000000
+ 88237 multiletter control sequences out of 15000+600000
+ 500686 words of font info for 115 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,13n,120p,1132b,590s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,11n,120p,1132b,455s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on _main.pdf (7 pages).
+Output written on _main.pdf (5 pages).
