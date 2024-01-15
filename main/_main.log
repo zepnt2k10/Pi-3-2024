@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  12 JAN 2024 14:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.6.2)  15 JAN 2024 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2890,7 +2890,7 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 85.
 
-(../vuicungpi/vuicungpi.tex
+(../cackithi/cackithi.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  5.
 
@@ -3048,10 +3048,31 @@ d/EBGaramond-Italic.otf
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
 (microtype)             Ignoring protrusion settings for this character.
-File: ../vuicungpi/pic//Chiara.jpg Graphic file (type bmp)
-<../vuicungpi/pic//Chiara.jpg>
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+Requested font "[EBGaramond-Bold.otf]/OT:script=latn;language=dflt;+pnum;+onum;
+mapping=tex-text;" at 12.0pt
+ -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/ebgaramon
+d/EBGaramond-Bold.otf
 
-Overfull \vbox (5.92152pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\TU/EBGaramond(0)/m/n/12 Cho dãy số $[]\OMS/ztmcm/m/n/12 f\OML/ztmcm/m/it/12 
+a[]\OMS/ztmcm/m/n/12 g[]$[] \TU/EBGaramond(0)/m/n/12 xác định bởi:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\OML/ztmcm/m/it/12 a[] \OT1/ztmcm/m/n/12 = []\OML/ztmcm/m/it/12 ; \OMS/ztmcm/
+m/n/12 8\OML/ztmcm/m/it/12 n \OMS/ztmcm/m/n/12 ^^U \OT1/ztmcm/m/n/12 1$[]\TU/EB
+Garamond(0)/m/n/12 . Đặt $[]\OML/ztmcm/m/it/12 b[] \OT1/ztmcm/m/n/12 =
+ []
+
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 1 might be wrong on input line 41.
+
+
+Overfull \vbox (11.62634pt too high) has occurred while \output is active []
 
 
 
@@ -3069,100 +3090,50 @@ Package microtype Info: Loading generic protrusion settings for font family
 Requested font "[lmsans8-regular]:mapping=tex-text;" at 8.0pt
  -> C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm/lmsans
 8-regular.otf
-File: ../vuicungpi/pic//../tieude.pdf Graphic file (type pdf)
-<use ../vuicungpi/pic//../tieude.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
+File: ../cackithi/pic//../bannercackithi.jpg Graphic file (type bmp)
+<../cackithi/pic//../bannercackithi.jpg>
+File: ../cackithi/pic//../tieude3.pdf Graphic file (type pdf)
+<use ../cackithi/pic//../tieude3.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
 [1
 
 ]
-File: ../vuicungpi/pic//Leda.jpg Graphic file (type bmp)
-<../vuicungpi/pic//Leda.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+[]$[]\OML/ztmcm/m/it/12 b\OT1/ztmcm/m/n/12 )$[] \TU/EBGaramond(0)/m/n/12 Gọi $[
+]\OML/ztmcm/m/it/12 X; Y; Z$[] \TU/EBGaramond(0)/m/n/12 lần lượt là hình chiếu
+ []
 
-Overfull \vbox (6.43246pt too high) has occurred while \output is active []
-
-File: ../vuicungpi/pic//../tieude2.pdf Graphic file (type pdf)
-<use ../vuicungpi/pic//../tieude2.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
-
-[2]
-File: ../vuicungpi/pic//Daniela.jpg Graphic file (type bmp)
-<../vuicungpi/pic//Daniela.jpg>
-
-Overfull \vbox (6.13716pt too high) has occurred while \output is active []
-
-File: ../vuicungpi/pic//../tieude3.pdf Graphic file (type pdf)
-<use ../vuicungpi/pic//../tieude3.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-
-[3]
-File: ../vuicungpi/pic//Yoana.jpg Graphic file (type bmp)
-<../vuicungpi/pic//Yoana.jpg>
-File: ../vuicungpi/pic//../tieude4.pdf Graphic file (type pdf)
-<use ../vuicungpi/pic//../tieude4.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
-File: vuicungpi1.pdf Graphic file (type pdf)
-<use vuicungpi1.pdf>
-File: fvuicungpi1.pdf Graphic file (type pdf)
-<use fvuicungpi1.pdf>
- [4]
-File: ../vuicungpi/pic//sofia.jpg Graphic file (type bmp)
-<../vuicungpi/pic//sofia.jpg>
-)
-File: ../vuicungpi/pic//../tieude5.pdf Graphic file (type pdf)
-<use ../vuicungpi/pic//../tieude5.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
-File: vuicungpi2.pdf Graphic file (type pdf)
-<use vuicungpi2.pdf>
-File: fvuicungpi2.pdf Graphic file (type pdf)
-<use fvuicungpi2.pdf>
- [5] (_main.aux)
+File: cackithi1.pdf Graphic file (type pdf)
+<use cackithi1.pdf>
+File: fcackithi1.pdf Graphic file (type pdf)
+<use fcackithi1.pdf>
+File: cackithi1.pdf Graphic file (type pdf)
+<use cackithi1.pdf>
+File: fcackithi1.pdf Graphic file (type pdf)
+<use fcackithi1.pdf>
+File: cackithi1.pdf Graphic file (type pdf)
+<use cackithi1.pdf>
+File: fcackithi1.pdf Graphic file (type pdf)
+<use fcackithi1.pdf>
+[2])
+File: cackithi2.pdf Graphic file (type pdf)
+<use cackithi2.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
+File: cackithi2.pdf Graphic file (type pdf)
+<use cackithi2.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
+File: cackithi2.pdf Graphic file (type pdf)
+<use cackithi2.pdf>
+File: fcackithi2.pdf Graphic file (type pdf)
+<use fcackithi2.pdf>
+ [3] (_main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3173,12 +3144,12 @@ Package logreq Info: Writing requests to '_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 68715 strings out of 410939
- 1560648 string characters out of 2823530
- 2616816 words of memory out of 3000000
- 88237 multiletter control sequences out of 15000+600000
- 500686 words of font info for 115 fonts, out of 8000000 for 9000
+ 68591 strings out of 410939
+ 1557829 string characters out of 2823530
+ 2640816 words of memory out of 3000000
+ 88115 multiletter control sequences out of 15000+600000
+ 500694 words of font info for 116 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 104i,11n,120p,1132b,455s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 104i,12n,120p,1132b,584s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on _main.pdf (5 pages).
+Output written on _main.pdf (3 pages).
