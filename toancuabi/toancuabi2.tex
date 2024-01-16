@@ -2,218 +2,237 @@
 \pagestyle{toancuabi}
 \everymath{\color{toancuabi}}
 %\blfootnote{$^*$\color{toancuabi}Nguồn: Câu lạc bộ Toán học Unicorn (UMC)}
-\graphicspath{{../toancuabi/pic2/}}
+\graphicspath{{../toancuabi/pic/}}
 \begingroup
 \AddToShipoutPicture*{\put(0,616){\includegraphics[width=19.3cm]{../bannertoancuabi}}}  
-%\AddToShipoutPicture*{\put(80,495){\includegraphics[scale=1]{../tieudea.pdf}}}  
+\AddToShipoutPicture*{\put(55,490){\includegraphics[scale=1]{../tieudeaa.pdf}}}  
 \centering
 \endgroup
 \vspace*{215pt} 
 
 \definecolor{bulgarianrose}{rgb}{0.28, 0.02, 0.03}
-%\begin{multicols}{2}
-%	Các bạn nhỏ thân mến, tiếp tục với những bài giảng được dạy trong Câu lạc bộ Unicorn Math Circle (UMC), bài viết lần này giới thiệu về chủ đề Phép dời hình và ứng dụng trong việc xây dựng công thức tính diện tích của những hình thường gặp. Những phép dời hình cơ bản được giới thiệu trong chuỗi những bài viết là: Phép đối xứng trục hay phép phản xạ (reflection), phép đối xứng tâm (point reflection), phép quay (rotation) và phép tịnh tiến (translation).
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.75\linewidth]{Hinh1}
-%		\caption{\small\textit{\color{toancuabi}Hình $1$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	Những phép dời hình được đề cập ở đây chỉ di chuyển hình mà không làm thay đổi hình dạng và kích thước của những hình đã cho và do đó những hình mới có diện tích không đổi so với hình cũ. Phép dời hình đầu tiên được giới thiệu trong bài viết này là phép phản xạ. Các phép dời hình còn lại được giới thiệu lần lượt trong các bài viết tiếp theo.
-%	\vskip 0.1cm
-%	Phép phản xạ tạo ra một hình mới bằng cách lật hình đã cho thành hình ảnh phản chiếu (mirror image) của nó.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh2}
-%		\caption{\small\textit{\color{toancuabi}Hình $2$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	Trong Hình $1$ ở đây, tam giác $ABC$ bên trái bị phản xạ (hay lật) qua đường kẻ màu đỏ để tạo thành tam giác $A'B'C'$ bên phải. Hoặc có thể nói là các đỉnh $A,B,$ và $C$ của tam giác được phản xạ lên đường kẻ màu đỏ để tạo ra ảnh gương là một tam giác có đỉnh $A'$, $B'$, và $C'$ khác. Người ta gọi đường kẻ màu đỏ đó là trục phản xạ, trục đối xứng hay trục gương. Lưu ý rằng hình thứ $2$, gọi là ảnh, nằm ngược lại hoàn toàn với hình ban đầu. Các bạn nhỏ có thể dễ dàng nhớ điều này khi liên hệ tới chiếc gương: Hình ảnh trong gương phản chiếu mọi thứ, nhưng tất cả trong ảnh bị ngược lại so với thực tế.
-%	\vskip 0.1cm
-%	Phép phản xạ cũng được nhìn thấy ở nhiều hiện tượng trong thực tế. Cảnh mặt trời lặn xuống núi được phản xạ (soi bóng) xuống mặt sông là một trong những hình ảnh phản xạ rất đẹp trong cuộc sống.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh3}
-%		\caption{\small\textit{\color{toancuabi}Hình $3$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	Do phép phản xạ chỉ lật hình qua một trục nên \textbf{\color{toancuabi}\color{toancuabi}hình ảnh phản xạ được giữ nguyên hình dáng và kích thước}. Điều này cho ta một kết luận quan trọng đó là: \textbf{\color{toancuabi}\color{toancuabi}Diện tích của hình phản xạ và hình đã cho là như nhau}. Chẳng hạn trong ví dụ trên tam giác ABC và tam giác phản xạ của nó là $A'B'C'$ có diện tích bằng nhau. Hơn nữa, quan sát hình đầu tiên, ta thấy rằng hai điểm $A$ và $A'$ có cùng khoảng cách tới trục phản xạ là $3$ đơn vị. Điều tương tự cũng đúng với điểm $B'$ cách $1$ đơn vị và điểm $C'$ cách $3$ đơn vị. Hơn nữa, ta cũng thấy đoạn thẳng nối $AA'$, $BB'$ hay $CC'$ đều vuông góc với trục phản xạ. Bất cứ khi nào một hình được phản xạ, thì mỗi cặp điểm tương ứng phải cách trục phản xạ một khoảng bằng nhau và đoạn thẳng nối cặp điểm này phải vuông góc với trục phản xạ.
-%	\begin{figure}[H]
-%		\vspace*{5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.75\linewidth]{Hinh4}
-%		\caption{\small\textit{\color{toancuabi}Hình $4$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	Chúng ta cùng xem các ví dụ dưới đây để ôn lại những tính chất của phép phản xạ nhé.
-%	\vskip 0.1cm 
-%	\textbf{\color{toancuabi}\color{toancuabi}Ví dụ $\pmb{1}$.} Trong các hình cho dưới đây, cặp hình nào là phản xạ của nhau qua trục cho tương ứng?
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh5}
-%		\caption{\small\textit{\color{toancuabi}Hình $5$.}}
-%		\includegraphics[width= 1\linewidth]{Hinh6}
-%		\caption{\small\textit{\color{toancuabi}Hình $6$.}}
-%		\includegraphics[width= 1\linewidth]{Hinh7}
-%		\caption{\small\textit{\color{toancuabi}Hình $7$.}}
-%		\vspace*{-5pt}
-%	\end{figure}
-%	\textit{Lời giải.}
-%	Hình $5$ tam giác $A'B'C'$ là hình ảnh phản xạ của tam giác $ABC$ qua trục phản xạ $d$ vì các cặp điểm tương ứng $A$ và $A'$, $B$ và $B'$,  $C$ và $C'$ cùng cách đều trục $d$ và đoạn thẳng thẳng $AA'$, $BB'$,  $CC'$ vuông góc với trục $d$.
-%	\vskip 0.1cm
-%	Tuy nhiên, trong hai hình sau hình bình hành $A'B'C'D'$ không là hình phản xạ của hình bình hành $ABCD$ qua trục phản xạ $s$ bởi vì $AA'$ trong Hình $6$ không vuông góc với trục phản xạ và cặp điểm $A$, $A'$ không cách đều trục phản xạ trong Hình $7$.
-%	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Ví dụ} $\pmb{2}$. Hình chữ nhật A$'B'C'D'$ phải nằm ở vị trí nào để khi dùng phép phản xạ ta thu được hình chữ nhật $ABCD$?
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh8}
-%		\caption{\small\textit{\color{toancuabi}Hình $8$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.}
-%	Để $ABCD$ và $A'B'C'D'$ là  hình phản xạ của nhau thì trục phản xạ $d$ phải ở vị trí như trong Hình $9$ sau. Khi đó $AA'$ vuông góc $d$ và $A$,  $A'$ cùng cách $d$ một khoảng cách là $3$ đơn vị.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh9}
-%		\caption{\small\textit{\color{toancuabi}Hình $9$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Ví dụ} $\pmb{3}.$ Vẽ một hình chữ nhật $ABCD$ có $AB=4\,cm$ và $AD=3\,cm$. Xác định ảnh phản xạ qua các trục đối xứng sau:
-%	\vskip 0.1cm
-%	$(a)$ Đoạn thẳng $AB$
-%	\vskip 0.1cm
-%	$(b)$ Đoạn thẳng $BC$
-%	\vskip 0.1cm		
-%	$(c)$ Đoạn thẳng $AC$
-%	\vskip 0.1cm
-%	\textit{Lời giải.}  
-%	$(a)$ Ta xác định điểm $D'$ sao cho $A$ là trung điểm của đoạn $DD'$ và điểm $C'$ sao cho $B$ là trung điểm của đoạn $CC'$. Khi đó ảnh phản xạ của $ABCD$ qua đoạn AB là hình chữ nhật $ABC'D'$ được minh họa trong Hình $10$. 
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh10}
-%		\caption{\small\textit{\color{toancuabi}Hình $10$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	$(b)$ Tương tự như câu $(a)$, ta xác định hai điểm $A'$ và $D'$ như Hình $11$. Vậy $A'BCD'$ là ảnh phản xạ của hình chữ nhật $ABCD$ qua $BC$. 
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh11}
-%		\caption{\small\textit{\color{toancuabi}Hình $11$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	$(c)$ Do $A$ và $C$ nằm trên trục phản xạ nên ta chỉ cần xác định ảnh phản xạ của hai điểm $B$ và $D$. Đầu tiên kẻ đường thẳng đi qua $D$ và vuông góc với trục $AC$ tại $E$. Sau đó xác định điểm $D'$ nằm trên đường thẳng đó sao cho độ dài $AD'$ bằng $3\,cm$. Làm tương tự với điểm $B$ ta sẽ thu được ảnh phản xạ là hình chữ nhật $AB'CD'$ như Hình $12$.
-%	\begin{figure}[H]
-%		\vspace*{5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.7\linewidth]{Hinh12}
-%		\caption{\small\textit{\color{toancuabi}Hình $12$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Ví dụ $\pmb4$.} Hình vuông trong Hình $13$ được tạo thành từ $25$ ô vuông, trong đó $6$ ô vuông trong hình đã được tô màu. Hãy tô thêm $3$ hình vuông nữa để hai nửa của hình vuông phản xạ với nhau qua trục đối xứng AB.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.7\linewidth]{Hinh13}
-%		\caption{\small\textit{\color{toancuabi}Hình $13$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} Ta cần chỉ ra ảnh phản xạ của từng ô vuông đơn vị qua trục $AB$ nằm ở vị trí nào trên hình. Rõ ràng ba ô vuông cần được tô màu nằm ở vị trí dòng $1$, cột $3$; dòng $5$, cột $3$ và dòng $2$ cột $1$ và Hình sau khi tô được vẽ  như trong Hình $14$.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.7\linewidth]{Hinh14}
-%		\caption{\small\textit{\color{toancuabi}Hình $14$.}}
-%		\vspace*{-5pt}
-%	\end{figure}	
-%	\textbf{\color{toancuabi}\color{toancuabi}Ví dụ $\pmb5$.} Vẽ một tam giác $ABC$ (Hình $F$) và đường thẳng $d$ trên một tờ giấy như trong Hình $15$. Gấp tờ giấy dọc theo đường thẳng $d$ và dùng một cây kim đâm xuyên qua ba đỉnh $A$, $B$ và $C$. Ký hiệu các điểm ở mặt giấy kia là $A',B',C'$ rồi nối chúng lại với nhau để tạo thành hình $F'$. Theo các bạn hình $F'$ có là ảnh phản xạ của $F$ qua đường thẳng $d$ hay không?
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.4\linewidth]{Hinh15.1}
-%		\includegraphics[width= 0.5\linewidth]{Hinh15.2}
-%		\caption{\small\textit{\color{toancuabi}Hình $15$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textit{Lời giải.} Hình $F'$ là ảnh phản xạ của $F$ qua trục phản xạ $d$ vì khi gấp tờ giấy theo đường thẳng $d$ thì $F'$ trùng khít với $F$,  hay $F$ được lật qua đường thẳng $d$ để thành hình $F'$.    
-%	\vskip 0.1cm
-%	Dưới đây là một số bài tập để các em luyện tập thêm về hình phản xạ và trục đối xứng trong phép phản xạ.
-%	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài tập $\pmb1$.} Hãy vẽ ảnh phản xạ của hình bình hành qua trục phản xạ trong Hình $16$.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.75\linewidth]{Hinh16}
-%		\caption{\small\textit{\color{toancuabi}Hình $16$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài tập $\pmb2$.} Một hình chữ nhật $A$ được phản xạ để tạo ra hình chữ nhật B như trong Hình $17$. Hãy xác định trục đối xứng.
-%	\begin{figure}[H]
-%		\vspace*{5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh17}
-%		\caption{\small\textit{\color{toancuabi}Hình $17$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài tập $\pmb3$}: Hình $F'$ có là ảnh phản xạ của $F$ qua đường thẳng $s$ trong các trường hợp trong Hình $18$ dưới đây hay không?
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.8\linewidth]{Hinh18.1}
-%		
-%		\vspace*{5pt}
-%		\includegraphics[width= 0.76\linewidth]{Hinh18.2}
-%		
-%		\vspace*{5pt}
-%		\includegraphics[width= 0.75\linewidth]{Hinh18.3}
-%		\caption{\small\textit{\color{toancuabi}Hình $18$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài tập $\pmb4$.} Vẽ trục đối xứng $d$ của hai điểm $A$ và $A'$. Sau đó vẽ ảnh phản xạ của các hình trong Hình $19$ qua $d$.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 1\linewidth]{Hinh19.1}
-%		
-%		\vspace*{5pt}
-%		\includegraphics[width= 1\linewidth]{Hinh19.2}
-%		\caption{\small\textit{\color{toancuabi}Hình $19$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài tập $\pmb5$.} Hãy tô thêm đúng hai ô vuông nữa để hình vuông trong Hình $20$ có đúng hai trục đối xứng.
-%	\begin{figure}[H]
-%		\vspace*{-5pt}
-%		\centering
-%		\captionsetup{labelformat= empty, justification=centering}
-%		\includegraphics[width= 0.75\linewidth]{Hinh20}
-%		\caption{\small\textit{\color{toancuabi}Hình $20$.}}
-%		\vspace*{-10pt}
-%	\end{figure}
-%\end{multicols}
+\begin{multicols}{2}
+	Số này của tạp chí Pi tiếp tục giới thiệu đến bạn đọc phép dời hình thứ hai là Phép đối xứng tâm. Giống như phép phản xạ, dưới phép đối xứng tâm, các hình không thay đổi hình dáng hay kích thước và do đó không thay đổi diện tích. 
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}$\pmb2$. Phép đối xứng tâm}
+	\vskip 0.1cm
+	Phép đối xứng tâm xây dựng một hình mới bằng cách lấy đối xứng xung quanh một điểm gọi là tâm của hình, hay tâm phản xạ. Mỗi điểm trong hình đã cho được đặt tương ứng với một điểm sao cho tâm phản xạ là trung điểm của đoạn nối hai điểm này.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{1}
+		\caption{\small\textit{\color{toancuabi}Hình $1$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Tam giác $ABC$ bên trái được lấy đối xứng qua tâm $O$ để tạo ra tam giác $A'B'C'$ bên phải. Lúc này điểm $O$ đóng vai trò là trung điểm của đoạn thẳng $AA'$, $BB'$ và $CC'$. Do phép đối xứng tâm không làm thay đổi hình dáng và kích thước nên ta cũng có kết luận diện tích tam giác $ABC$ bằng diện tích tam giác $A'B'C'$. Các bạn nhỏ hãy liên hệ khái niệm tâm đối xứng tới chiếc thấu kính hội tụ: khi căn chỉnh vị trí một cách hợp lý, một vật đi qua thấu kính hội tụ sẽ cho ra ảnh ngược chiều với vật và bằng vật.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.85\linewidth]{2}
+		\caption{\small\textit{\color{toancuabi}Hình $2$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Chúng ta cùng tìm hiểu thêm về phép đối xứng tâm qua các ví dụ minh họa dưới đây.
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.1}$:} Hãy cho biết hình vẽ dưới đây có nhận điểm $O$ là tâm đối xứng tâm không. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{3}
+		\caption{\small\textit{\color{toancuabi}Hình $3$.}}
+		\vspace*{-5pt}
+	\end{figure}
+	\end{multicols}
+	\begin{multicols}{2}
+	\textit{Lời giải:} Từ hình vẽ ta thấy mỗi điểm của một hình đều có một điểm tương ứng thuộc hình còn lại, sao cho $O$ là trung điểm của đoạn nối hai điểm này. Do đó điểm $O$ là tâm đối xứng của hình đã cho. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{4}
+		\caption{\small\textit{\color{toancuabi}Hình $4$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.2}$:} Hãy xác định tam giác $A'B'C'$ đối xứng với tam giác $ABC$ qua tâm $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{5}
+		\caption{\small\textit{\color{toancuabi}Hình $5$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Lời giải:} Đầu tiên ta xác định điểm đối xứng $A'$ với điểm $A$ qua $O$ như sau
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{6}
+		\caption{\small\textit{\color{toancuabi}Hình $6$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Rõ ràng $OA$ và $OA'$ đều có độ dài bằng độ dài đường chéo của hình chữ nhật cỡ $2\times 1$.
+	\vskip 0.1cm
+	Tương tự ta cũng có thể tìm điểm đối xứng $B'$ và $C'$ với các điểm $B$ và $C$
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{7}
+		\caption{\small\textit{\color{toancuabi}Hình $7$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Cuối cùng ta nối ba điểm $A'$, $B'$ và $C'$ lại với nhau để thu được tam giác $A'B'C'$ đối xứng với tam giác $ABC$ qua tâm phản xạ $O$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{8}
+		\caption{\small\textit{\color{toancuabi}Hình $8$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.3}$:} Tam giác $A'B'C'$ phải nằm ở vị trí nào để nó đối xứng với tam giác $ABC$ qua tâm $O$? 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.65\linewidth]{9}
+		\caption{\small\textit{\color{toancuabi}Hình $9$.}}
+		\vspace*{-5pt}
+	\end{figure}
+	\textit{Lời giải:} Tương tự Ví dụ $2.2$, ta lần lượt xác định ba điểm $A'$, $B'$ và $C'$ rồi nối chúng lại với nhau:
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.75\linewidth]{10}
+		\caption{\small\textit{\color{toancuabi}Hình $10$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.4}$:} Hình vẽ dưới đây cho biết tam giác $A'B'C'$ đối xứng với tam giác $ABC$ qua tâm đối xứng $O$. Hãy xác định vị trí của tâm đối xứng $O$. 
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{11}
+		\caption{\small\textit{\color{toancuabi}Hình $11$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textit{Lời giải:} Vì tam giác $ABC$ và $A'B'C'$ đối xứng với nhau qua $O$ nên $O$ là trung điểm của ba đoạn thẳng $AA'$, $BB'$ và $CC'$. Như vậy ta chỉ cần tìm trung điểm của một trong ba đoạn thẳng, chẳng hạn $BB'$ là có thể xác định được tâm $O$. Tâm đối xứng $O$ được cho như hình vẽ sau.
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{12}
+		\caption{\small\textit{\color{toancuabi}Hình $12$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Các bạn nhỏ hãy làm một số bài tập sau để luyện tập thêm về phép đối xứng tâm.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Bài tập $\pmb1$:} Hình vẽ sau đây có đối xứng tâm không?
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{13}
+		\caption{\small\textit{\color{toancuabi}Hình $13$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb2$:} Xác định $A'B'C'D'$ đối xứng với $ABCD$ qua tâm $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{14}
+		\caption{\small\textit{\color{toancuabi}Hình $14$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb3$:} Tam giác $A'B'C'$ phải nằm ở vị trí nào để nó đối xứng với tam giác $ABC$ qua tâm $O$?
+	\begin{figure}[H]
+		\vspace*{5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.54\linewidth]{15}
+		\caption{\small\textit{\color{toancuabi}Hình $15$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Bài tập $\pmb4$:} Hình vẽ dưới đây cho biết tam giác $A'B'C'$ là ảnh của tam giác $ABC$ qua tâm đối xứng $O$. Hãy xác định vị trí của tâm đối xứng $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 0.64\linewidth]{16}
+		\caption{\small\textit{\color{toancuabi}Hình $16$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	\textbf{\color{toancuabi}Liên hệ giữa phép đối xứng tâm và phép phản xạ}
+	\vskip 0.1cm
+	Bây giờ chúng ta hãy cùng xem mối liên hệ giữa phép đối xứng tâm và phép phản xạ qua ví dụ sau.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Ví dụ $\pmb{2.5}$:} Cho hình bình hành $ABCD$ và hai đường thẳng $m$, $n$ vuông góc với nhau như hình vẽ dưới đây.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{17}
+		\caption{\small\textit{\color{toancuabi}Hình $17$.}}
+		\vspace*{-5pt}
+	\end{figure}
+	Tiếp theo ta cho hình bình hành $ABCD$ phản xạ qua đường thẳng $m$ để thu được hình bình hành $A_1B_1C_1D_1$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{18}
+		\caption{\small\textit{\color{toancuabi}Hình $18$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Sau đó lại cho hình bình hành $A_1B_1C_1D_1$ phản xạ qua đường thẳng $n$ để thu được hình bình hành $A_2B_2C_2D_2$
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{19}
+		\caption{\small\textit{\color{toancuabi}Hình $19$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Ta nhận thấy $ABCD$ và $A_2B_2C_2D_2$ đối xứng với nhau qua tâm $O$.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{20}
+		\caption{\small\textit{\color{toancuabi}Hình $20$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Từ đây ta có nhận xét: \textbf{\color{toancuabi}Khi lấy ảnh phản xạ của một hình lần lượt qua hai trục phản xạ là hai đường thẳng vuông góc với nhau thì được một hình mới là ảnh của hình đã cho qua phép đối xứng tâm} (với tâm là giao điểm của hai đường vuông góc).
+	\vskip 0.1cm
+	Dưới đây là một bài tập để các bạn nhỏ ôn luyện thêm về sự liên hệ của phép phản xạ và phép đối xứng tâm vừa được đưa ra ở trên.
+	\vskip 0.1cm
+	\textbf{\color{toancuabi}Bài tập $\pmb5$:} Hãy tìm ảnh của phép phản xạ lần lượt qua đường thẳng $m$ và $n$ của hình vẽ sau đây. Phép biến hình nào sẽ có kết quả giống như hai phép phản xạ vừa thực hiện này?
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[width= 1\linewidth]{21}
+		\caption{\small\textit{\color{toancuabi}Hình $21$.}}
+		\vspace*{-10pt}
+	\end{figure}
+	Phép đối xứng tâm cũng được nhìn thấy trong nhiều hình ảnh trong thực tế. Việc tạo ra một hình bằng cách lấy hình ảnh đối xứng của những bộ phận đã cho của hình qua một tâm tạo ra những hình ảnh đẹp và cân đối.
+	\begin{figure}[H]
+		\vspace*{-5pt}
+		\centering
+		\captionsetup{labelformat= empty, justification=centering}
+		\includegraphics[height= 0.55\linewidth]{22a}
+		\includegraphics[height= 0.55\linewidth]{22b}
+		\includegraphics[width=\linewidth]{22c}
+		\includegraphics[height= 0.45\linewidth]{22d}
+		\caption{\small\textit{\color{toancuabi}Hình $22$.}}
+		\vspace*{-10pt}
+	\end{figure}
+\end{multicols}
 %\newpage
 %\begingroup
 %\AddToShipoutPicture*{\put(66,635){\includegraphics[scale=1]{../tieude1.pdf}}} 
@@ -224,9 +243,9 @@
 %\begin{multicols}{2}
 %	Tiếp tục với nội dung về đề thi tuyển sinh vào Câu lạc bộ Unicorn Math Circle, trong số này, tạp chí Pi giới thiệu đến bạn đọc bài thi dành cho các bạn học sinh lớp $6$. Thời gian đề xuất làm bài là $90$ phút. 
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb1$.} Trong một chiếc hộp kín có $7$ quả bóng xanh, $8$ quả bóng đỏ và $9$ quả bóng vàng. Hỏi cần lấy ra ngẫu nhiên ít nhất bao nhiêu quả bóng để chắc chắn có $2$ quả bóng mỗi màu?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb1$.} Trong một chiếc hộp kín có $7$ quả bóng xanh, $8$ quả bóng đỏ và $9$ quả bóng vàng. Hỏi cần lấy ra ngẫu nhiên ít nhất bao nhiêu quả bóng để chắc chắn có $2$ quả bóng mỗi màu?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb2$.} Xét dãy hình dưới đây. Dựa vào quy luật, hãy cho biết có bao nhiêu hình tam giác trong $2023$ hình đầu tiên tính từ trái sang?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb2$.} Xét dãy hình dưới đây. Dựa vào quy luật, hãy cho biết có bao nhiêu hình tam giác trong $2023$ hình đầu tiên tính từ trái sang?
 %	\begin{figure}[H]
 %		\vspace*{-5pt}
 %		\centering
@@ -235,13 +254,13 @@
 %%		\caption{\small\textit{\color{}}}
 %		\vspace*{-10pt}
 %	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb3$.} Trên bảng ta viết liên tiếp các số tự nhiên từ $1$ tới $500$. Tiếp theo, ta gạch đi tất cả các số là bình phương hoặc là lập phương của một số nguyên. Hỏi trong các số còn lại trên bảng không được xoá, số đứng ở vị trí thứ $105$ là số nào?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb3$.} Trên bảng ta viết liên tiếp các số tự nhiên từ $1$ tới $500$. Tiếp theo, ta gạch đi tất cả các số là bình phương hoặc là lập phương của một số nguyên. Hỏi trong các số còn lại trên bảng không được xoá, số đứng ở vị trí thứ $105$ là số nào?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb4$.} Trong một câu lạc bộ văn nghệ chỉ có $1/7$ thành viên là các bạn nam. Sau khi có thêm $13$ bạn đăng ký thì số bạn nam trong nhóm tăng lên, tuy nhiên tỷ lệ các thành viên nam so với thành viên nữ trong nhóm lại giảm đi. Hỏi số lượng các bạn nữ được bổ sung mới vào câu lạc bộ là bao nhiêu?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb4$.} Trong một câu lạc bộ văn nghệ chỉ có $1/7$ thành viên là các bạn nam. Sau khi có thêm $13$ bạn đăng ký thì số bạn nam trong nhóm tăng lên, tuy nhiên tỷ lệ các thành viên nam so với thành viên nữ trong nhóm lại giảm đi. Hỏi số lượng các bạn nữ được bổ sung mới vào câu lạc bộ là bao nhiêu?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb5$.} Có bao nhiêu số có $3$ chữ số khác nhau, chia hết cho $11$, được tạo thành từ các chữ số $1, 3, 5, 7, 9$?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb5$.} Có bao nhiêu số có $3$ chữ số khác nhau, chia hết cho $11$, được tạo thành từ các chữ số $1, 3, 5, 7, 9$?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb6$.} Biết rằng mỗi ô vuông trên lưới có cạnh là $1$ đơn vị. Hỏi hình được tô đậm dưới đây có diện tích là bao nhiêu?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb6$.} Biết rằng mỗi ô vuông trên lưới có cạnh là $1$ đơn vị. Hỏi hình được tô đậm dưới đây có diện tích là bao nhiêu?
 %	\begin{figure}[H]
 %		\vspace*{5pt}
 %		\centering
@@ -264,13 +283,13 @@
 %%%		\caption{\small\textit{\color{}}}
 %%		\vspace*{-10pt}
 %%	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb7$.} Mỗi ngày bạn An có thể ăn $2$ hoặc $3$ viên kẹo. Hỏi có bao nhiêu cách khác nhau để bạn An ăn hết $13$ viên kẹo? Biết rằng các viên kẹo giống hệt nhau.
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb7$.} Mỗi ngày bạn An có thể ăn $2$ hoặc $3$ viên kẹo. Hỏi có bao nhiêu cách khác nhau để bạn An ăn hết $13$ viên kẹo? Biết rằng các viên kẹo giống hệt nhau.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb8$.} Một phần của một cuốn sách bị rơi ra, trong đó trang đầu tiên là $659$ và trang cuối cùng có số trang cũng gồm các chữ số $6,5,9$ nhưng được viết theo một thứ tự khác. Hỏi có bao nhiêu trang đã rơi ra?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb8$.} Một phần của một cuốn sách bị rơi ra, trong đó trang đầu tiên là $659$ và trang cuối cùng có số trang cũng gồm các chữ số $6,5,9$ nhưng được viết theo một thứ tự khác. Hỏi có bao nhiêu trang đã rơi ra?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb9$.} Trong một cuộc thi toán, đề thi gồm có $20$ câu hỏi, nếu thí sinh trả lời đúng $1$ câu sẽ được cộng $5$ điểm, trả lời sai một câu sẽ bị trừ $2$ điểm và phải đưa ra câu trả lời cho tất cả các câu hỏi. Biết rằng bạn An được $79$ điểm. Hỏi bạn An đã trả lời đúng bao nhiêu câu hỏi?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb9$.} Trong một cuộc thi toán, đề thi gồm có $20$ câu hỏi, nếu thí sinh trả lời đúng $1$ câu sẽ được cộng $5$ điểm, trả lời sai một câu sẽ bị trừ $2$ điểm và phải đưa ra câu trả lời cho tất cả các câu hỏi. Biết rằng bạn An được $79$ điểm. Hỏi bạn An đã trả lời đúng bao nhiêu câu hỏi?
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb{10}$.} Trong một văn phòng có $6$ nhân viên. Mỗi người trong số họ có thể là người Thật thà (người luôn nói sự thật) hoặc kẻ Dối trá (người luôn nói dối). Một hôm $6$ người ngồi họp xung quanh một chiếc bàn tròn và mỗi người đều nói: ``Trong số ba người gồm hai người ngồi cạnh tôi và người ngồi đối diện với tôi qua tâm bàn tròn, có đúng hai kẻ Dối trá". Hỏi trong văn phòng có bao nhiêu người Thật thà?
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb{10}$.} Trong một văn phòng có $6$ nhân viên. Mỗi người trong số họ có thể là người Thật thà (người luôn nói sự thật) hoặc kẻ Dối trá (người luôn nói dối). Một hôm $6$ người ngồi họp xung quanh một chiếc bàn tròn và mỗi người đều nói: ``Trong số ba người gồm hai người ngồi cạnh tôi và người ngồi đối diện với tôi qua tâm bàn tròn, có đúng hai kẻ Dối trá". Hỏi trong văn phòng có bao nhiêu người Thật thà?
 %	\begin{figure}[H]
 %		\vspace*{-5pt}
 %		\centering
@@ -278,12 +297,12 @@
 %		\includegraphics[width= 1\linewidth]{3}
 %		\vspace*{-10pt}
 %	\end{figure}
-%	\textbf{\color{toancuabi}\color{toancuabi}Đáp án}
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Đáp án}
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb1$.} 
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb1$.} 
 %	Ta thấy số bóng đỏ và bóng vàng là lớn nhất, nên ta cần lấy ra ngẫu nhiên ít nhất $8+9+2=19$ (quả bóng) để sau khi lấy tổng số bóng lấy ra trừ đi tổng số bóng đỏ và vàng tối đa có thể lấy được, còn lại $2$ quả bóng xanh. 
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb2$.} 
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb2$.} 
 %	Ta thấy dãy hình gồm các nhóm gồm $6$ hình 
 %	\begin{figure}[H]
 %		\vspace*{-5pt}
@@ -295,14 +314,14 @@
 %	\end{figure}
 %	được sắp xếp liên tiếp nhau, trong mỗi nhóm hình có $2$ hình tam giác. Do $2023$ chia $6$ bằng $337$ dư $1$, nên trong $2023$ hình đầu tiên tính từ trái sang có số hình tam giác là: $337×2+1=675$.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb3$.} 
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb3$.} 
 %	Trong số $100$ số nguyên dương đầu tiên có $10$ số là bình phương của một số nguyên (từ $1^2=1$ tới $10^2=100$), và $4$ số là lập phương của một số nguyên (từ $1^3=1$ cho tới $4^3=64$).
 %	\vskip 0.1cm
 %	Các số $1$ và $64$ đồng thời vừa là số chính phương và là lập phương đúng của một số nguyên. Vì vậy, theo nguyên lý bao hàm -- loại trừ, trong $100$ số đầu tiên, ta đã gạch đi $10+4-2=12$ số.
 %	\vskip 0.1cm
 %	Trong $17$ số tiếp theo  từ $101$ tới $117$ không có số nào là bình phương hoặc lập phương của một số nguyên, do $11^2=121$ và $5^3=125$. Vì vậy trong các số còn lại trên bảng không được xoá, số đứng ở vị trí thứ $105$ là $105+12=117$.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb4$.} Gọi số bạn nam là $x$. Vì số bạn nam chiếm $1/7$ tổng số thành viên, nên tổng số thành viên của câu lạc bộ sẽ là $7x$. Do đó số bạn nữ là 6x. Ta gọi số bạn nữ được bổ sung mới vào câu lạc bộ là a. Khi đó số bạn nam được bổ sung mới vào câu lạc bộ sẽ là $13-a$. Theo đề bài ta có: $13-a>0$, tức là $a<13$. Hơn nữa
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb4$.} Gọi số bạn nam là $x$. Vì số bạn nam chiếm $1/7$ tổng số thành viên, nên tổng số thành viên của câu lạc bộ sẽ là $7x$. Do đó số bạn nữ là 6x. Ta gọi số bạn nữ được bổ sung mới vào câu lạc bộ là a. Khi đó số bạn nam được bổ sung mới vào câu lạc bộ sẽ là $13-a$. Theo đề bài ta có: $13-a>0$, tức là $a<13$. Hơn nữa
 %	\begin{align*}
 %		\dfrac{x+ 13 - a}{6x + a} < \frac{1}{6} &\Rightarrow 6(x + 13 - a) < 6x + a\\
 %		&\Rightarrow 7a > 78 \Rightarrow a > 11
@@ -311,7 +330,7 @@
 %	\vskip 0.1cm
 %	Vậy có $12$ bạn nữ được bổ sung mới vào câu lạc bộ.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb5$.} Giả sử $\overline{abc}$ là một số thỏa mãn điều kiện đề bài. Theo dấu hiệu chia hết cho $11$ ta có: $a+c-b$ chia hết cho $11$. Vì ta lấy $a,b,c$ là các chữ số khác nhau trong tập $\{1,3,5,7,9\}$, nên $a+c-b$ chỉ có thể bằng $11$.  Do đó $b=a+c-11$.
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb5$.} Giả sử $\overline{abc}$ là một số thỏa mãn điều kiện đề bài. Theo dấu hiệu chia hết cho $11$ ta có: $a+c-b$ chia hết cho $11$. Vì ta lấy $a,b,c$ là các chữ số khác nhau trong tập $\{1,3,5,7,9\}$, nên $a+c-b$ chỉ có thể bằng $11$.  Do đó $b=a+c-11$.
 %	\vskip 0.1cm
 %	Mà $a+c<9+9=18$, nên $b<18-11=7$. Do đó $b=1;3;5$.
 %	\vskip 0.1cm
@@ -323,7 +342,7 @@
 %	\vskip 0.1cm
 %	Vậy tổng cộng ta được $8$ số thỏa mãn yêu cầu đề bài. 
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb6$.} 
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb6$.} 
 %	\begin{figure}[H]
 %		\vspace*{5pt}
 %		\centering
@@ -340,7 +359,7 @@
 %		&7-2\times3-\dfrac{3\times3}{2}\\
 %		=&\,10.
 %	\end{align*}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb7$.} Gọi $x$ là số ngày bạn An ăn $2$ viên kẹo và $y$ là số ngày bạn An ăn $3$ viên kẹo, với $x,y$ là các số nguyên dương. Khi đó ta có:
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb7$.} Gọi $x$ là số ngày bạn An ăn $2$ viên kẹo và $y$ là số ngày bạn An ăn $3$ viên kẹo, với $x,y$ là các số nguyên dương. Khi đó ta có:
 %	$2x+3y=13$. Từ đây ta suy ra y phải là số lẻ.
 %	Mặt khác  . Do đó $y=1$ hoặc $y=3$.
 %	\vskip 0.1cm
@@ -350,13 +369,13 @@
 %	\vskip 0.1cm
 %	Vậy có tất cả $6+10=16$ cách khác nhau để bạn An ăn hết $13$ viên kẹo.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb8$.} Vì trang cuối cùng cũng có số trang gồm các chữ số $6,5,9$ và phải là số chẵn nên trang cuối cùng sẽ có số trang là $956$. Như vậy số trang đã rơi ra là: $956-659+1=298$.
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb8$.} Vì trang cuối cùng cũng có số trang gồm các chữ số $6,5,9$ và phải là số chẵn nên trang cuối cùng sẽ có số trang là $956$. Như vậy số trang đã rơi ra là: $956-659+1=298$.
 %	\vskip 0.1cm
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb9$.} Gọi số câu bạn An trả lời đúng là $x$, khi đó số câu bạn An trả lời sai là $20-x$. Ta có:
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb9$.} Gọi số câu bạn An trả lời đúng là $x$, khi đó số câu bạn An trả lời sai là $20-x$. Ta có:
 %	\begin{align*}
 %		5x-2(20-x)=79 \Rightarrow 7x=119 \Rightarrow x=17.
 %	\end{align*}
-%	\textbf{\color{toancuabi}\color{toancuabi}Bài $\pmb{10}$.}Giả sử có nhiều hơn $1$ người Thật thà. Ta xét các trường hợp:
+%	\textbf{\color{toancuabi}\color{toancuabi}\color{toancuabi}Bài $\pmb{10}$.}Giả sử có nhiều hơn $1$ người Thật thà. Ta xét các trường hợp:
 %	\vskip 0.1cm
 %	\textit{Trường hợp $1$.} Nếu có $2$ người Thật thà ngồi cạnh nhau hoặc ngồi đối diện nhau thì từ đầu bài suy ra tất cả $4$ người còn lại phải là người Dối trá, dễ thấy điều này dẫn đến mâu thuẫn.
 %	\vskip 0.1cm
@@ -623,166 +642,169 @@
 %	\vspace*{-10pt}
 %\end{figure}
 %Khoảng cách giữa Siena và Alexandria là $5000$ stadium$^2$  và vào giữa ngày hạ chí ở Siena, mặt trời chiếu vuông góc với trái đất trong khi ở Alexandria nó nghiêng $7{,}2^\circ$. Do đó ông đã tính chu vi Trái Đất xuống tương đương $7{,}2:360=5000:x$.
-\newpage
-\graphicspath{{../toancuabi/toantienganh/}}
-\begingroup
-\thispagestyle{toancuabinone}
-\blfootnote{$^1$\color{toancuabi}Ottawa, Canada.}
-\AddToShipoutPicture*{\put(60,733){\includegraphics[width=17.2cm]{../mathc.pdf}}}
-%\AddToShipoutPicture*{\put(-2,733){\includegraphics[width=17.2cm]{../mathl.pdf}}} 
-\AddToShipoutPicture*{\put(66,670){\includegraphics[scale=1]{../tieudeb.pdf}}} 
-\centering
-\endgroup
-\vspace*{40pt}
 
-\begin{multicols}{2}
-	This article is the second part of the series on demonstration \textit{Proof by Contradiction}.
-	\vskip 0.2cm
-	\PIbox{
-	\textbf{\color{toancuabi}Example $\pmb6$.}
-	Twenty--five persons from $8$ different provinces elected to the National Congress.
-	Prove that at least $4$ of them are from the same province.}
-	\vskip 0.2cm
-	\textit{Solution.}
-	Assume that this is not true. Then no $4$ of them are from the same province.
-	In this case, not more than $3$ persons are from the $1^{\text{st}}$ province, not more than $3$ from the $2^{\text{nd}}$, and so on.
-	Altogether, there are not more than $3 \times 8 = 24$ persons. This contradicts the fact that there are $25$ persons.
-	\vskip 0.2cm
-	\PIbox{\textbf{\color{toancuabi}Example $\pmb7$.}
-	At the graduation event of the School of Wizardry, $5$ outstanding students called to the podium.
-	They standing in a row. Altogether, these $5$ students know $300$ different spells.
-	Prove that there are $2$ students standing next to each other who, if combined, know at least $100$ spells.}
-	\vskip 0.1cm
-	\textit{Solution.}
-	Suppose that this is not true. Then the $1^{\text{st}}$ and $2^{\text{nd}}$ students together know less than $100$ spells,
-	and the $4^{\text{th}}$ and $5^{\text{th}}$ students together know less than $100$ spells.
-	Then these four know less than $200$ spells together. In this case, the $3^{\text{rd}}$ student knows more than $100$ spells.
-	\vskip 0.2cm
-	\PIbox{\textbf{\color{toancuabi}Example $\pmb8$.}
-	The only way to travel in the Kingdom of so many swamps is to use magic carpets.
-		Twenty--one carpet--transportation \,lines \,\,serve \,\,the \,\,capital. \,A 
-	}
-	
-	\PIbox{single carpet--transportation line goes to Tinyville, and every other city is served by exactly $20$ carpet--transportation lines.
-		Show that it is possible to travel by magic carpet from the capital to Tinyville (perhaps by transferring from one carpet line to another).}
-	\vskip 0.2cm
-	\textit{Solution.} Let's take a look at all the cities that are accessible by magic carpet from Tinyville. The capital does not belong to this group. In this group there is a number of cities, each has $20$ lines leading to it,
-		and one city (Tinyville) with only one line leading to it. Thus the sum of all lines leading to the cities is an odd number.
-		But this is not true. If we count the lines among these cities, then they have to be counted twice, thus it is an even number.
-		This contradiction means Tinyville is connected to the capital.
-	\vskip 0.2cm
-	\PIbox{\textbf{\color{toancuabi}Example $\pmb9$.}
-		The game of Trick--a--Troll is played with $10$ players and a deck of $20$ cards:
-		$2$ through $10$ and an ace of spades, and $2$ through $10$ and an ace of clubs.
-		Each player gets $1$ club and $1$ spade and adds his cards (aces count as $1$).
-		Prove that there will be at least $2$ players with sums that end in the same digit.}
-	\vskip 0.2cm
-	\textit{Solution.}
-	Let's consider the sum of the values of all the cards.
-	If we assume that all players had different last digits for their sums, then all $10$ digits would be present, and the sum of them all would end with a $5$.
-	On the other hand, the sum of the values of all cards in play ends with a $0$, a contradiction.
-	\vskip 0.2cm
-	\PIbox{\textbf{\color{toancuabi}Example $\pmb10$.}
-	At each of the vertices of a regular hexagon there stands a grasshopper.
-		At the same time, all six grasshoppers jump off the ground. They land at the same time,
-		each at one of the vertices. No two grasshoppers land at the same vertex.
-		Each of the grasshoppers does not necessarily land at a vertex different from the one it jumps off.
-		Prove that there exist three grasshoppers jump off vertices $A, B,$ and $C,$
-		and land at $A', B'$ and $C',$ such that $\triangle ABC$ and $\triangle A'B'C'$ are congruent.}
-	\vskip 0.2cm
-	\textit{Solution.}
-		Let assume that it is not possible for such scenario. In other words, if any three grasshoppers jump off vertices $A, B,$ and $C,$
-		and land at $A', B'$ and $C',$ then $\triangle ABC$ and $\triangle A'B'C'$ \textit{are not congruent.}
-		\vskip 0.1cm
-		First, we find out how many types of triangles can be constructed with three vertices of the hexagon.
-		There are three types of triangles, such that \textit{they are pair--wise not congruent}, see the diagram below.
-	\begin{figure}[H]
-		\vspace*{-5pt}
-		\centering
-		\captionsetup{labelformat= empty, justification=centering}
-		\begin{tikzpicture}[toancuabi, scale=0.4, node font=\scriptsize]
-			\fill[fill=cackithi!40] (3.8660254037844397,2.767949192431121) -- (2.,4.) -- (0.,3.) -- cycle;
-			\fill[fill=cackithi!40] (9.732050807568879,0.5358983848622445) -- (9.866025403784441,2.7679491924311215) -- (6.,3.) -- cycle;
-			\fill[fill=cackithi!40] (15.866025403784441,2.7679491924311215) -- (13.732050807568879,-0.4641016151377553) -- (12.,3.) -- cycle;
-			\draw  (2.,4.)-- (0.,3.);
-			\draw  (0.,3.)-- (-0.13397459621556163,0.7679491924311225);
-			\draw  (-0.13397459621556163,0.7679491924311225)-- (1.7320508075688774,-0.4641016151377553);
-			\draw  (1.7320508075688774,-0.4641016151377553)-- (3.7320508075688776,0.5358983848622443);
-			\draw  (3.7320508075688776,0.5358983848622443)-- (3.8660254037844397,2.767949192431121);
-			\draw  (3.8660254037844397,2.767949192431121)-- (2.,4.);
-			\draw  (8.,4.)-- (6.,3.);
-			\draw  (6.,3.)-- (5.866025403784439,0.7679491924311221);
-			\draw  (5.866025403784439,0.7679491924311221)-- (7.7320508075688785,-0.4641016151377553);
-			\draw  (7.7320508075688785,-0.4641016151377553)-- (9.732050807568879,0.5358983848622445);
-			\draw  (9.732050807568879,0.5358983848622445)-- (9.866025403784441,2.7679491924311215);
-			\draw  (9.866025403784441,2.7679491924311215)-- (8.,4.);
-			\draw  (14.,4.)-- (12.,3.);
-			\draw  (12.,3.)-- (11.86602540378444,0.7679491924311221);
-			\draw  (11.86602540378444,0.7679491924311221)-- (13.732050807568879,-0.4641016151377553);
-			\draw  (13.732050807568879,-0.4641016151377553)-- (15.732050807568879,0.5358983848622445);
-			\draw  (15.732050807568879,0.5358983848622445)-- (15.866025403784441,2.7679491924311215);
-			\draw  (15.866025403784441,2.7679491924311215)-- (14.,4.);
-			\draw  (3.8660254037844397,2.767949192431121)-- (2.,4.);
-			\draw  (2.,4.)-- (0.,3.);
-			\draw  (0.,3.)-- (3.8660254037844397,2.767949192431121);
-			\draw  (9.732050807568879,0.5358983848622445)-- (9.866025403784441,2.7679491924311215);
-			\draw  (9.866025403784441,2.7679491924311215)-- (6.,3.);
-			\draw  (6.,3.)-- (9.732050807568879,0.5358983848622445);
-			\draw  (15.866025403784441,2.7679491924311215)-- (13.732050807568879,-0.4641016151377553);
-			\draw  (13.732050807568879,-0.4641016151377553)-- (12.,3.);
-			\draw  (12.,3.)-- (15.866025403784441,2.7679491924311215);
-			\draw  (-1.,5.)-- (17.,5.);
-			\draw  (17.,5.)-- (17.,-2.);
-			\draw  (17.,-2.)-- (-1.,-2.);
-			\draw  (-1.,-2.)-- (-1.,5.);
-			\draw  (5.,5.)-- (5.,-2.);
-			\draw  (11.,5.)-- (11.,-2.);
-			\draw  (-1.,-1.)-- (17.,-1.);
-			\draw [fill=white] (2.,4.) circle (2.0pt);
-			\draw (2.14,4.37) node {$A$};
-			\draw [fill=white] (0.,3.) circle (2.0pt);
-			\draw (-0.16,3.33) node {$B$};
-			\draw [fill=white] (-0.13397459621556163,0.7679491924311225) circle (2.0pt);
-			\draw (-0.4,0.61) node {$C$};
-			\draw [fill=white] (1.7320508075688774,-0.4641016151377553) circle (2.0pt);
-			\draw (2.02,-0.63) node {$D$};
-			\draw [fill=white] (3.7320508075688776,0.5358983848622443) circle (2.0pt);
-			\draw (4.04,0.41) node {$E$};
-			\draw [fill=white] (3.8660254037844397,2.767949192431121) circle (2.0pt);
-			\draw (4.08,3.15) node {$F$};
-			\draw [fill=white] (8.,4.) circle (2.0pt);
-			\draw (8.14,4.37) node {$G$};
-			\draw [fill=white] (6.,3.) circle (2.0pt);
-			\draw (5.78,3.41) node {$H$};
-			\draw [fill=white] (5.866025403784439,0.7679491924311221) circle (2.0pt);
-			\draw (5.6,0.65) node {$I$};
-			\draw [fill=white] (7.7320508075688785,-0.4641016151377553) circle (2.0pt);
-			\draw (8.04,-0.59) node {$J$};
-			\draw [fill=white] (9.732050807568879,0.5358983848622445) circle (2.0pt);
-			\draw (9.94,0.29) node {$K$};
-			\draw [fill=white] (9.866025403784441,2.7679491924311215) circle (2.0pt);
-			\draw (10.06,3.13) node {$L$};
-			\draw [fill=white] (14.,4.) circle (2.0pt);
-			\draw (14.,4.43) node {$M$};
-			\draw [fill=white] (12.,3.) circle (2.0pt);
-			\draw (11.74,3.31) node {$N$};
-			\draw [fill=white] (11.86602540378444,0.7679491924311221) circle (2.0pt);
-			\draw (11.62,0.49) node {$O$};
-			\draw [fill=white] (13.732050807568879,-0.4641016151377553) circle (2.0pt);
-			\draw (14.14,-0.65) node {$P$};
-			\draw [fill=white] (15.732050807568879,0.5358983848622445) circle (2.0pt);
-			\draw (15.94,0.31) node {$Q$};
-			\draw [fill=white] (15.866025403784441,2.7679491924311215) circle (2.0pt);
-			\draw (16.1,3.05) node {$R$};
-			\draw[color=black] (2,-1.6) node {$\text{Type } 1$};
-			\draw[color=black] (8,-1.6) node {$\text{Type } 2$};
-			\draw[color=black] (14,-1.6) node {$\text{Type }3$};
-		\end{tikzpicture}
-		\vspace*{-10pt}
-	\end{figure}
-		For \textit{Type $1$}, there are $6$ such triangles; for \textit{Type $2$}, $12$ triangles,; and for \textit{Type $3$}, $2$ triangles.
-		(there are $20$ such triangles in total.) 
-		\vskip 0.1cm
-		Now, our assumption means that $12$ triangles of Type $2$ should be change to the same number of distinct triangles of Type $1$ or Type $2$,
-		which is impossible since there are only $6+2=8$ of them. This is a contradiction.
-\end{multicols}
+
+
+%\newpage
+%\graphicspath{{../toancuabi/toantienganh/}}
+%\begingroup
+%\thispagestyle{toancuabinone}
+%\blfootnote{$^1$\color{toancuabi}Ottawa, Canada.}
+%\AddToShipoutPicture*{\put(60,733){\includegraphics[width=17.2cm]{../mathc.pdf}}}
+%%\AddToShipoutPicture*{\put(-2,733){\includegraphics[width=17.2cm]{../mathl.pdf}}} 
+%\AddToShipoutPicture*{\put(66,670){\includegraphics[scale=1]{../tieudeb.pdf}}} 
+%\centering
+%\endgroup
+%\vspace*{40pt}
+%
+%\begin{multicols}{2}
+%	This article is the second part of the series on demonstration \textit{Proof by Contradiction}.
+%	\vskip 0.2cm
+%	\PIbox{
+%	\textbf{\color{toancuabi}\color{toancuabi}Example $\pmb6$.}
+%	Twenty--five persons from $8$ different provinces elected to the National Congress.
+%	Prove that at least $4$ of them are from the same province.}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%	Assume that this is not true. Then no $4$ of them are from the same province.
+%	In this case, not more than $3$ persons are from the $1^{\text{st}}$ province, not more than $3$ from the $2^{\text{nd}}$, and so on.
+%	Altogether, there are not more than $3 \times 8 = 24$ persons. This contradicts the fact that there are $25$ persons.
+%	\vskip 0.2cm
+%	\PIbox{\textbf{\color{toancuabi}\color{toancuabi}Example $\pmb7$.}
+%	At the graduation event of the School of Wizardry, $5$ outstanding students called to the podium.
+%	They standing in a row. Altogether, these $5$ students know $300$ different spells.
+%	Prove that there are $2$ students standing next to each other who, if combined, know at least $100$ spells.}
+%	\vskip 0.1cm
+%	\textit{Solution.}
+%	Suppose that this is not true. Then the $1^{\text{st}}$ and $2^{\text{nd}}$ students together know less than $100$ spells,
+%	and the $4^{\text{th}}$ and $5^{\text{th}}$ students together know less than $100$ spells.
+%	Then these four know less than $200$ spells together. In this case, the $3^{\text{rd}}$ student knows more than $100$ spells.
+%	\vskip 0.2cm
+%	\PIbox{\textbf{\color{toancuabi}\color{toancuabi}Example $\pmb8$.}
+%	The only way to travel in the Kingdom of so many swamps is to use magic carpets.
+%		Twenty--one carpet--transportation \,lines \,\,serve \,\,the \,\,capital. \,A 
+%	}
+%	
+%	\PIbox{single carpet--transportation line goes to Tinyville, and every other city is served by exactly $20$ carpet--transportation lines.
+%		Show that it is possible to travel by magic carpet from the capital to Tinyville (perhaps by transferring from one carpet line to another).}
+%	\vskip 0.2cm
+%	\textit{Solution.} Let's take a look at all the cities that are accessible by magic carpet from Tinyville. The capital does not belong to this group. In this group there is a number of cities, each has $20$ lines leading to it,
+%		and one city (Tinyville) with only one line leading to it. Thus the sum of all lines leading to the cities is an odd number.
+%		But this is not true. If we count the lines among these cities, then they have to be counted twice, thus it is an even number.
+%		This contradiction means Tinyville is connected to the capital.
+%	\vskip 0.2cm
+%	\PIbox{\textbf{\color{toancuabi}\color{toancuabi}Example $\pmb9$.}
+%		The game of Trick--a--Troll is played with $10$ players and a deck of $20$ cards:
+%		$2$ through $10$ and an ace of spades, and $2$ through $10$ and an ace of clubs.
+%		Each player gets $1$ club and $1$ spade and adds his cards (aces count as $1$).
+%		Prove that there will be at least $2$ players with sums that end in the same digit.}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%	Let's consider the sum of the values of all the cards.
+%	If we assume that all players had different last digits for their sums, then all $10$ digits would be present, and the sum of them all would end with a $5$.
+%	On the other hand, the sum of the values of all cards in play ends with a $0$, a contradiction.
+%	\vskip 0.2cm
+%	\PIbox{\textbf{\color{toancuabi}\color{toancuabi}Example $\pmb10$.}
+%	At each of the vertices of a regular hexagon there stands a grasshopper.
+%		At the same time, all six grasshoppers jump off the ground. They land at the same time,
+%		each at one of the vertices. No two grasshoppers land at the same vertex.
+%		Each of the grasshoppers does not necessarily land at a vertex different from the one it jumps off.
+%		Prove that there exist three grasshoppers jump off vertices $A, B,$ and $C,$
+%		and land at $A', B'$ and $C',$ such that $\triangle ABC$ and $\triangle A'B'C'$ are congruent.}
+%	\vskip 0.2cm
+%	\textit{Solution.}
+%		Let assume that it is not possible for such scenario. In other words, if any three grasshoppers jump off vertices $A, B,$ and $C,$
+%		and land at $A', B'$ and $C',$ then $\triangle ABC$ and $\triangle A'B'C'$ \textit{are not congruent.}
+%		\vskip 0.1cm
+%		First, we find out how many types of triangles can be constructed with three vertices of the hexagon.
+%		There are three types of triangles, such that \textit{they are pair--wise not congruent}, see the diagram below.
+%	\begin{figure}[H]
+%		\vspace*{-5pt}
+%		\centering
+%		\captionsetup{labelformat= empty, justification=centering}
+%		\begin{tikzpicture}[toancuabi, scale=0.4, node font=\scriptsize]
+%			\fill[fill=cackithi!40] (3.8660254037844397,2.767949192431121) -- (2.,4.) -- (0.,3.) -- cycle;
+%			\fill[fill=cackithi!40] (9.732050807568879,0.5358983848622445) -- (9.866025403784441,2.7679491924311215) -- (6.,3.) -- cycle;
+%			\fill[fill=cackithi!40] (15.866025403784441,2.7679491924311215) -- (13.732050807568879,-0.4641016151377553) -- (12.,3.) -- cycle;
+%			\draw  (2.,4.)-- (0.,3.);
+%			\draw  (0.,3.)-- (-0.13397459621556163,0.7679491924311225);
+%			\draw  (-0.13397459621556163,0.7679491924311225)-- (1.7320508075688774,-0.4641016151377553);
+%			\draw  (1.7320508075688774,-0.4641016151377553)-- (3.7320508075688776,0.5358983848622443);
+%			\draw  (3.7320508075688776,0.5358983848622443)-- (3.8660254037844397,2.767949192431121);
+%			\draw  (3.8660254037844397,2.767949192431121)-- (2.,4.);
+%			\draw  (8.,4.)-- (6.,3.);
+%			\draw  (6.,3.)-- (5.866025403784439,0.7679491924311221);
+%			\draw  (5.866025403784439,0.7679491924311221)-- (7.7320508075688785,-0.4641016151377553);
+%			\draw  (7.7320508075688785,-0.4641016151377553)-- (9.732050807568879,0.5358983848622445);
+%			\draw  (9.732050807568879,0.5358983848622445)-- (9.866025403784441,2.7679491924311215);
+%			\draw  (9.866025403784441,2.7679491924311215)-- (8.,4.);
+%			\draw  (14.,4.)-- (12.,3.);
+%			\draw  (12.,3.)-- (11.86602540378444,0.7679491924311221);
+%			\draw  (11.86602540378444,0.7679491924311221)-- (13.732050807568879,-0.4641016151377553);
+%			\draw  (13.732050807568879,-0.4641016151377553)-- (15.732050807568879,0.5358983848622445);
+%			\draw  (15.732050807568879,0.5358983848622445)-- (15.866025403784441,2.7679491924311215);
+%			\draw  (15.866025403784441,2.7679491924311215)-- (14.,4.);
+%			\draw  (3.8660254037844397,2.767949192431121)-- (2.,4.);
+%			\draw  (2.,4.)-- (0.,3.);
+%			\draw  (0.,3.)-- (3.8660254037844397,2.767949192431121);
+%			\draw  (9.732050807568879,0.5358983848622445)-- (9.866025403784441,2.7679491924311215);
+%			\draw  (9.866025403784441,2.7679491924311215)-- (6.,3.);
+%			\draw  (6.,3.)-- (9.732050807568879,0.5358983848622445);
+%			\draw  (15.866025403784441,2.7679491924311215)-- (13.732050807568879,-0.4641016151377553);
+%			\draw  (13.732050807568879,-0.4641016151377553)-- (12.,3.);
+%			\draw  (12.,3.)-- (15.866025403784441,2.7679491924311215);
+%			\draw  (-1.,5.)-- (17.,5.);
+%			\draw  (17.,5.)-- (17.,-2.);
+%			\draw  (17.,-2.)-- (-1.,-2.);
+%			\draw  (-1.,-2.)-- (-1.,5.);
+%			\draw  (5.,5.)-- (5.,-2.);
+%			\draw  (11.,5.)-- (11.,-2.);
+%			\draw  (-1.,-1.)-- (17.,-1.);
+%			\draw [fill=white] (2.,4.) circle (2.0pt);
+%			\draw (2.14,4.37) node {$A$};
+%			\draw [fill=white] (0.,3.) circle (2.0pt);
+%			\draw (-0.16,3.33) node {$B$};
+%			\draw [fill=white] (-0.13397459621556163,0.7679491924311225) circle (2.0pt);
+%			\draw (-0.4,0.61) node {$C$};
+%			\draw [fill=white] (1.7320508075688774,-0.4641016151377553) circle (2.0pt);
+%			\draw (2.02,-0.63) node {$D$};
+%			\draw [fill=white] (3.7320508075688776,0.5358983848622443) circle (2.0pt);
+%			\draw (4.04,0.41) node {$E$};
+%			\draw [fill=white] (3.8660254037844397,2.767949192431121) circle (2.0pt);
+%			\draw (4.08,3.15) node {$F$};
+%			\draw [fill=white] (8.,4.) circle (2.0pt);
+%			\draw (8.14,4.37) node {$G$};
+%			\draw [fill=white] (6.,3.) circle (2.0pt);
+%			\draw (5.78,3.41) node {$H$};
+%			\draw [fill=white] (5.866025403784439,0.7679491924311221) circle (2.0pt);
+%			\draw (5.6,0.65) node {$I$};
+%			\draw [fill=white] (7.7320508075688785,-0.4641016151377553) circle (2.0pt);
+%			\draw (8.04,-0.59) node {$J$};
+%			\draw [fill=white] (9.732050807568879,0.5358983848622445) circle (2.0pt);
+%			\draw (9.94,0.29) node {$K$};
+%			\draw [fill=white] (9.866025403784441,2.7679491924311215) circle (2.0pt);
+%			\draw (10.06,3.13) node {$L$};
+%			\draw [fill=white] (14.,4.) circle (2.0pt);
+%			\draw (14.,4.43) node {$M$};
+%			\draw [fill=white] (12.,3.) circle (2.0pt);
+%			\draw (11.74,3.31) node {$N$};
+%			\draw [fill=white] (11.86602540378444,0.7679491924311221) circle (2.0pt);
+%			\draw (11.62,0.49) node {$O$};
+%			\draw [fill=white] (13.732050807568879,-0.4641016151377553) circle (2.0pt);
+%			\draw (14.14,-0.65) node {$P$};
+%			\draw [fill=white] (15.732050807568879,0.5358983848622445) circle (2.0pt);
+%			\draw (15.94,0.31) node {$Q$};
+%			\draw [fill=white] (15.866025403784441,2.7679491924311215) circle (2.0pt);
+%			\draw (16.1,3.05) node {$R$};
+%			\draw[color=black] (2,-1.6) node {$\text{Type } 1$};
+%			\draw[color=black] (8,-1.6) node {$\text{Type } 2$};
+%			\draw[color=black] (14,-1.6) node {$\text{Type }3$};
+%		\end{tikzpicture}
+%		\vspace*{-10pt}
+%	\end{figure}
+%		For \textit{Type $1$}, there are $6$ such triangles; for \textit{Type $2$}, $12$ triangles,; and for \textit{Type $3$}, $2$ triangles.
+%		(there are $20$ such triangles in total.) 
+%		\vskip 0.1cm
+%		Now, our assumption means that $12$ triangles of Type $2$ should be change to the same number of distinct triangles of Type $1$ or Type $2$,
+%		which is impossible since there are only $6+2=8$ of them. This is a contradiction.
+%\end{multicols}
